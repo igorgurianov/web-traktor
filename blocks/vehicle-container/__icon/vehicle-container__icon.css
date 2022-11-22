@@ -14,3 +14,12 @@
   background-color: #ffc513;
 }
 
+.vehicle-container__icon:before {
+  content: '';
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  transition: .2s all;
+  }

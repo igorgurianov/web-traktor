@@ -1,9 +1,32 @@
 .icon__oil-lube {
   top: 43%;
   left: 20%;
-  background-image: url(../../../../images/oil-svgrepo-com.svg);
+  transition:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
+/*
 .icon__oil-lube:hover {
   background-image: url(../../../../images/oil-active.svg);
 }
+
+*/
+
+.icon__oil-lube:before {
+  content: '';
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+  }
+
+  .vehicle-container__icon:hover:before {
+    filter: invert(1);}
+
+
+    .icon__oil-lube:before {
+      background-image: url(../../../../images/oil-svgrepo-com.svg);
+      }
+
