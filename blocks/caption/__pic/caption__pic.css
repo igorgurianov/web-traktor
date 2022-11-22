@@ -1,0 +1,9 @@
+.caption__pic {
+  margin: 10px 10px 0 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+}

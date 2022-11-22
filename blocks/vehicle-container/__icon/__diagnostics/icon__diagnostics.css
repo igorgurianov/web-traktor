@@ -1,0 +1,9 @@
+.icon__diagnostics {
+  top: 40%;
+  left: 57%;
+  background-image: url(../../../../images/stethoscope-svgrepo-com.svg);
+}
+
+.icon__diagnostics:hover {
+  background-image: url(../../../../images/stethoscope-active.svg);
+}

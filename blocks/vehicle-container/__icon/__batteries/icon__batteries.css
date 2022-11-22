@@ -1,0 +1,9 @@
+.icon__batteries {
+  top: 55%;
+  left: 34%;
+  background-image: url(../../../../images/battery-svgrepo-com.svg);
+}
+
+.icon__batteries:hover {
+  background-image: url(../../../../images/battery-active.svg);
+}

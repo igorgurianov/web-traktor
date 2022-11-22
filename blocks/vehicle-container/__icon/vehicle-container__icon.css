@@ -1,0 +1,16 @@
+.vehicle-container__icon {
+  background-size: 35px;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+
+/*
+.vehicle-container__icon:hover {
+  background-color: #ffc513;
+}
+*/

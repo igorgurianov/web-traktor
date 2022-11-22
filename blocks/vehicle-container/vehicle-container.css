@@ -1,0 +1,13 @@
+.vehicle-container {
+  margin: 0;
+  padding: 0;
+  background-image: url(../../images/tractor-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  aspect-ratio: 1;
+  width: 50%;
+  position: relative;
+  left: 30%;
+  z-index: 3;
+}

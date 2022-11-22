@@ -1,0 +1,4 @@
+.nav-tabs__btn_active {
+  border-bottom-color: #ffc513;
+  transition: border-bottom-color 0.5s ease 0s;
+}

@@ -1,0 +1,9 @@
+.icon__oil-lube {
+  top: 43%;
+  left: 20%;
+  background-image: url(../../../../images/oil-svgrepo-com.svg);
+}
+
+.icon__oil-lube:hover {
+  background-image: url(../../../../images/oil-active.svg);
+}

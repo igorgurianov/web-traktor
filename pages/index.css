@@ -1,0 +1,38 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Inter/inter.css);
+
+/* Page */
+@import url(../blocks/page/page.css);
+
+/* Services */
+@import url(../blocks/services/__title/services__title.css);
+@import url(../blocks/services/__subtitle/services__subtitle.css);
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/nav-tabs/__container/nav-tabs__container.css);
+@import url(../blocks/services/nav-tabs/__image/nav-tabs__img.css);
+@import url(../blocks/services/nav-tabs/__item/nav-tabs__item.css);
+@import url(../blocks/services/nav-tabs/__label/nav-tabs__label.css);
+@import url(../blocks/services/nav-tabs/__btn/nav-tabs__btn.css);
+@import url(../blocks/services/nav-tabs/__list/nav-tabs__list.css);
+@import url(../blocks/services/__interactive-pic.css/services__interactive-pic.css);
+@import url(../blocks/services/nav-tabs/__btn/_active/nav-tabs__btn_active.css);
+
+/* Caption */
+@import url(../blocks/caption/caption.css);
+@import url(../blocks/caption/__pic/caption__pic.css);
+@import url(../blocks/caption/__text/caption__text.css);
+
+/* Vehicle container */
+@import url(../blocks/vehicle-container/__icon/__batteries/icon__batteries.css);
+@import url(../blocks/vehicle-container/__icon/__diagnostics/icon__diagnostics.css);
+@import url(../blocks/vehicle-container/__icon/__engine/icon__engine.css);
+@import url(../blocks/vehicle-container/__icon/__oil-lube/icon__oil-lube.css);
+@import url(../blocks/vehicle-container/__icon/__tires/icon__tires.css);
+@import url(../blocks/vehicle-container/__icon/__transmission/icon__transmission.css);
+
+
+@import url(../blocks/vehicle-container/vehicle-container.css);
+@import url(../blocks/vehicle-container/__icon/vehicle-container__icon.css);
+@import url(../blocks/services/__interactive-pic.css/__title/interactive-pic__title.css);
+
+
