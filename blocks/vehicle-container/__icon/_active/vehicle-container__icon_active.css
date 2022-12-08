@@ -1,0 +1,7 @@
+.vehicle-container__icon_active:before {
+  filter: invert(1);
+}
+
+.vehicle-container__icon_active {
+  background-color: #ffc513;
+}

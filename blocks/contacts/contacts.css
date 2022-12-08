@@ -1,0 +1,6 @@
+.contacts {
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #777;
+}

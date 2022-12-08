@@ -9,17 +9,13 @@
   position: absolute;
 }
 
-
-.vehicle-container__icon:hover {
-  background-color: #ffc513;
-}
-
 .vehicle-container__icon:before {
   content: '';
   position: absolute;
   width: 55px;
   height: 55px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: 35px;
   transition: .2s all;
-  }
+}

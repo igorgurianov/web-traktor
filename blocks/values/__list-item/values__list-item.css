@@ -1,0 +1,19 @@
+.values__list-item {
+  padding-left: 27px;
+  position: relative;
+  padding-bottom: 7px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
+.values__list-item::before {
+  content: "";
+  position: absolute;
+  background-image: url('../../../images/tick-svgrepo-com.svg');
+  filter: invert(70%) sepia(98%) saturate(424%) hue-rotate(350deg) brightness(100%) contrast(103%);
+  left: 0;
+  width: 24px;
+  height: 24px;
+}

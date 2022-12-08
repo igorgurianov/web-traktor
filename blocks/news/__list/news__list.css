@@ -1,0 +1,4 @@
+.news__list {
+  display: flex;
+  flex-direction: column;
+}

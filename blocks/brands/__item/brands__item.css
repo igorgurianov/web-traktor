@@ -1,0 +1,5 @@
+.brands__item {
+  border: 1px solid #edeff0;
+  display: flex;
+  max-width: 100px;
+}

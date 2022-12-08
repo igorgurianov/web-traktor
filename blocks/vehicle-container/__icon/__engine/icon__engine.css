@@ -1,9 +1,11 @@
 .icon__engine {
   top: 55%;
   left: 8%;
-  background-image: url(../../../../images/engine-motor-svgrepo-com.svg);
 }
 
-.icon__engine:hover {
-  background-image: url(../../../../images/engine-motor-active.svg);
+.icon__engine::before {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(../../../../images/engine-motor-svgrepo-com.svg);
 }

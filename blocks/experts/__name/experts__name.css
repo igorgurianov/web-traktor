@@ -1,0 +1,10 @@
+.experts__name {
+  margin: 0 auto;
+  padding: 0;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+}

@@ -2,81 +2,288 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="./pages/index.css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
 </head>
 
 <body class="page">
-  <section class="interview"> </section>
+  <!-- Interview section -->
+  <section class="interview">
+    <div class="interview__wrapper">
+      <img class="interview__photo" src="./images/founder-img.png" alt="Фото основателей компании">
+      <div class="interview__history">
+        <h2 class="interview__title">Как все начиналось История от основателей</h2>
+        <div class="section-intro__dash"></div>
+        <p class="interview__paragraph">Семья занимается общим ремонтом автомобилей уже более двух десятилетий, и бизнес
+          продолжает расти.</p>
+        <p class="interview__paragraph">
+          Car Repair Service — это семейная автосервисная служба в США, которая обслуживает местное население и
+          прилегающие районы в течение 24 лет. Наши сертифицированные специалисты ASE готовы решить любой необходимый
+          ремонт автомобиля или проблемы с автомобилем, с которыми вы можете столкнуться. Адам Смит, владелец,
+          унаследовал магазин от своего отца.</p>
+      </div>
+    </div>
+    <div class="values">
+      <div class="values__item">
+        <h3 class="values__title">Наша миссия</h3>
+        <p class="values__paragraph">
+          Наша миссия состоит в том, чтобы обслуживать наших клиентов и всегда обеспечивать высочайший уровень
+          обслуживания клиентов; развивать нашу команду и стремиться к постоянному совершенствованию; и вести себя
+          экологически ответственным образом.
+        </p>
+      </div>
+      <div class="values__item">
+        <h3 class="values__title">Наше видение</h3>
+        <p class="values__paragraph">
+          Стать самым выдающимся мировым лидером в области решений для автомобильной бизнес-аналитики. Мы создадим
+          воодушевление, реализуя новаторские идеи, решая проблемы и превосходя ожидания наших клиентов.
+        </p>
+      </div>
+      <div class="values__item">
+        <h3 class="values__title">Главные ценности</h3>
+        <ul class="values__list">
+          <li class="values__list-item">Командная работа через доверие и уважение.</li>
+          <li class="values__list-item">Приверженность энтузиазму клиентов.</li>
+          <li class="values__list-item">Ответственность на всех уровнях.</li>
+          <li class="values__list-item">Страсть к победе.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
 
   <!-- services section -->
+
   <section class="services">
-    <h2 class="services__title">Наши рекомендуемые услуги</h2>
-    <p class="services__subtitle">Мы предлагаем полный спектр услуг по ремонту и обслуживанию</p>
+    <div class="section-intro">
+      <h2 class="section-intro__title">Наши рекомендуемые услуги</h2>
+      <p class="section-intro__subtitle">
+        Мы предлагаем полный спектр услуг по ремонту и обслуживанию
+      </p>
+      <div class="section-intro__dash"></div>
+    </div>
     <div class="nav-tabs__container">
       <ul class="nav-tabs__list">
         <li class="nav-tabs__item">
-          <button id="diagnose_btn" class="nav-tabs__btn nav-tabs__btn_active" type="button">
-            <img class="nav-tabs__img" src="./images/stethoscope-svgrepo-com.svg" alt="Диагностика">
+          <button id="diagnose_btn" data-type-service-button="diagnostics" class="nav-tabs__btn nav-tabs__btn_active"
+            type="button">
+            <img class="nav-tabs__img" src="./images/stethoscope-svgrepo-com.svg" alt="Диагностика" />
             <span class="nav-tabs__label">Диагностика</span>
           </button>
         </li>
         <li class="nav-tabs__item">
-          <button id="engine_btn" class="nav-tabs__btn" type="button">
-            <img class="nav-tabs__img" src="./images/engine-motor-svgrepo-com.svg" alt="Ремонт двигателя">
+          <button id="engine_btn" data-type-service-button="engine" class="nav-tabs__btn" type="button">
+            <img class="nav-tabs__img" src="./images/engine-motor-svgrepo-com.svg" alt="Ремонт двигателя" />
             <span class="nav-tabs__label">Ремонт двигателя</span>
           </button>
         </li>
         <li class="nav-tabs__item">
-          <button id="oil_btn" class="nav-tabs__btn" type="button">
-            <img class="nav-tabs__img" src="./images/oil-svgrepo-com.svg" alt="Масло/фильтры">
+          <button id="oil_btn" data-type-service-button="oil-lube" class="nav-tabs__btn" type="button">
+            <img class="nav-tabs__img" src="./images/oil-svgrepo-com.svg" alt="Масло/фильтры" />
             <span class="nav-tabs__label">Масло/фильтры</span>
           </button>
         </li>
         <li class="nav-tabs__item">
-          <button id="tires_btn" class="nav-tabs__btn" type="button">
-            <img class="nav-tabs__img" src="./images/tire-svgrepo-com.svg" alt="Шины">
+          <button id="tires_btn" data-type-service-button="tires" class="nav-tabs__btn" type="button">
+            <img class="nav-tabs__img" src="./images/tire-svgrepo-com.svg" alt="Шины" />
             <span class="nav-tabs__label">Шины</span>
           </button>
         </li>
         <li class="nav-tabs__item">
-          <button id="gear_btn" class="nav-tabs__btn" type="button">
-            <img class="nav-tabs__img" src="./images/gearshift-shift-svgrepo-com.svg" alt="Трансмиссия">
+          <button id="gear_btn" data-type-service-button="transmission" class="nav-tabs__btn" type="button">
+            <img class="nav-tabs__img" src="./images/gearshift-shift-svgrepo-com.svg" alt="Трансмиссия" />
             <span class="nav-tabs__label">Трансмиссия</span>
           </button>
         </li>
         <li class="nav-tabs__item">
-          <button id="battery_btn" class="nav-tabs__btn" type="button">
-            <img class="nav-tabs__img" src="./images/battery-svgrepo-com.svg" alt="Аккумуляторы">
+          <button id="battery_btn" data-type-service-button="batteries" class="nav-tabs__btn" type="button">
+            <img class="nav-tabs__img" src="./images/battery-svgrepo-com.svg" alt="Аккумуляторы" />
             <span class="nav-tabs__label">Аккумуляторы</span>
           </button>
         </li>
       </ul>
     </div>
     <div class="interactive-pic">
-      <h2 class="interactive-pic__title">Наши услуги</h2>
+      <h2 class="interactive-pic__title"></h2>
       <div class="vehicle-container">
-        <div class="icon__engine icon__engine_active vehicle-container__icon"></div>
-        <div class="icon__diagnostics vehicle-container__icon"></div>
-        <div class="icon__oil-lube vehicle-container__icon"></div>
-        <div class="icon__tires vehicle-container__icon"></div>
-        <div class="icon__transmission vehicle-container__icon"></div>
-        <div class="icon__batteries vehicle-container__icon"></div>
+        <div data-type_icon="engine" class="icon__engine icon__engine_active vehicle-container__icon"></div>
+        <div data-type_icon="diagnostics" class="icon__diagnostics vehicle-container__icon"></div>
+        <div data-type_icon="oil-lube" class="icon__oil-lube vehicle-container__icon"></div>
+        <div data-type_icon="tires" class="icon__tires vehicle-container__icon"></div>
+        <div data-type_icon="transmission" class="icon__transmission vehicle-container__icon"></div>
+        <div data-type_icon="batteries" class="icon__batteries vehicle-container__icon vehicle-container__icon_active">
+        </div>
       </div>
       <div class="caption">
-        <img class="caption__pic" src="/images/info-svgrepo-com.svg" alt="Фото трактора">
+        <img class="caption__pic" src="/images/info-svgrepo-com.svg" alt="Фото трактора" />
         <p class="caption__text"></p>
       </div>
+    </div>
+  </section>
 
+  <!-- Expert team section -->
+
+  <section class="experts">
+    <div class="section-intro">
+      <h2 class="section-intro__title">Встречайте команду экспертов</h2>
+      <p class="section-intro__subtitle">
+        Работая со многими марками, нашим техническим специалистам можно доверять правильное
+        диагностировать различные виды ремонта
+      </p>
+      <div class="section-intro__dash"></div>
+    </div>
+    <div class="experts__wrapper">
+      <div class="experts__buttons">
+        <button type="button" class="experts__btn_prev experts__btn"></button>
+        <button type="button" class="experts__btn_next experts__btn"></button>
+      </div>
+      <div class="experts__slider-container">
+        <ul class="experts__slider-track">
+          <li class="experts__slider-item"><img class="experts__slider-image" src="./images/Employee7.jpeg"
+              alt="Сотрудник 1">
+            <div class="experts__label">
+              <p class="experts__name">Джулс</p>
+              <p class="experts__position">Главный по Английскому</p>
+            </div>
+          </li>
+          <li class="experts__slider-item"><img class="experts__slider-image" src="./images/Employee3.jpeg"
+              alt="Сотрудник 1">
+            <div class="experts__label">
+              <p class="experts__name">Терминатор</p>
+              <p class="experts__position">Главный по железу</p>
+            </div>
+          </li>
+          <li class="experts__slider-item"><img class="experts__slider-image" src="./images/employee5.jpeg"
+              alt="Сотрудник 1">
+            <div class="experts__label">
+              <p class="experts__name">Менеджер</p>
+              <p class="experts__position">Главный по делегированию</p>
+            </div>
+          </li>
+          <li class="experts__slider-item"><img class="experts__slider-image" src="./images/employee4.jpeg"
+              alt="Сотрудник 1">
+            <div class="experts__label">
+              <p class="experts__name">Брюс</p>
+              <p class="experts__position">Главный по крепким орехам</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
 
+  </section>
 
+  <!-- News section -->
+
+  <section class="news">
+    <div class="new__sidebar">
+      <div class="section-intro section-intro_left">
+        <h2 class="section-intro__title">Новости и обновления</h2>
+        <div class="section-intro__dash"></div>
+      </div>
+      <ul class="news__list">
+        <li class="news-item">
+          <p class="news-date">08.10.2022</p>
+          <h4 class="news-title">Устранение неполадок антиблокировочной системы тормозов</h4>
+          <p class="news__paragraph">
+            Каждый раз, когда вы едете, тормоза вашего автомобиля работают с полной нагрузкой. Когда вы замедляетесь в
+            пробке, останавливаетесь на красный свет или вынуждены резко тормозить из-за препятствия на дороге, ваши
+            тормоза работают. Со временем использование ваших тормозов вызывает нормальный износ, который может сделать
+            их неэффективными или бесполезными.</p>
+        </li>
+        <li class="news-item">
+          <p class="news-date">08.10.2022</p>
+          <h4 class="news-title">Устранение неполадок антиблокировочной системы тормозов</h4>
+          <p class="news__paragraph">
+            Каждый раз, когда вы едете, тормоза вашего автомобиля работают с полной нагрузкой. Когда вы замедляетесь в
+            пробке, останавливаетесь на красный свет или вынуждены резко тормозить из-за препятствия на дороге, ваши
+            тормоза работают. Со временем использование ваших тормозов вызывает нормальный износ, который может сделать
+            их неэффективными или бесполезными.</p>
+        </li>
+        <li class="news-item">
+          <p class="news-date">08.10.2022</p>
+          <h4 class="news-title">Устранение неполадок антиблокировочной системы тормозов</h4>
+          <p class="news__paragraph">
+            Каждый раз, когда вы едете, тормоза вашего автомобиля работают с полной нагрузкой. Когда вы замедляетесь в
+            пробке, останавливаетесь на красный свет или вынуждены резко тормозить из-за препятствия на дороге, ваши
+            тормоза работают. Со временем использование ваших тормозов вызывает нормальный износ, который может сделать
+            их неэффективными или бесполезными.</p>
+        </li>
+      </ul>
+    </div>
+    <div class="news__carousel">
+      <h2 class="news__title_carousel">News</h2>
+    </div>
 
   </section>
-  <script src="./script.js"></script>
+
+  <!-- We fix everything-->
+
+  <section class="brands">
+    <div class="section-intro">
+      <h2 class="section-intro__title">Мы ремонтируем все марки тракторов</h2>
+      <p class="section-intro__subtitle">
+        Работаем со всеми марками и моделями техники
+      </p>
+      <div class="section-intro__dash"></div>
+    </div>
+    <ul class="brands__ribbon">
+      <li class="brands__item"><img class="brands__logo" src="./images/brand-logo-1.jpeg" alt="Беларусь Минск Трактор">
+      </li>
+      <li class="brands__item"><img class="brands__logo" src="./images/Brand-logo-2.png" alt="Беларусь Минск Трактор">
+      </li>
+      <li class="brands__item"><img class="brands__logo" src="./images/brand-logo-3.gif" alt="Беларусь Минск Трактор">
+      </li>
+      <li class="brands__item"><img class="brands__logo" src="./images/brand-logo-4.gif" alt="Беларусь Минск Трактор">
+      </li>
+      <li class="brands__item"><img class="brands__logo" src="./images/brand-logo-5.jpeg" alt="Беларусь Минск Трактор">
+      </li>
+      <li class="brands__item"> <img class="brands__logo" src="./images/brand-logo-6.jpeg" alt="Беларусь Минск Трактор">
+      </li>
+
+    </ul>
+  </section>
+
+  <!-- Find us section -->
+  <section class="find-us">
+    <iframe class="find-us__map"
+      src="https://yandex.ru/map-widget/v1/?um=constructor%3A93169cbb288e2f8f985e57fc556a187c4bc9bc7aeeb7c30b1a8ba2e372918833&amp;source=constructor"
+      width="100%" height="400" frameborder="0"></iframe>
+    <div class="contacts">
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/map.svg" alt="">
+        <div>
+          <p class="contacts__paragraph">Бронницы Бояркино</p>
+          <p class="contacts__paragraph">17 километр</p>
+          <p class="contacts__paragraph">строение 15</p>
+        </div>
+      </div>
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/phone-call.svg" alt="">
+        <div>
+          <p class="contacts__paragraph">Не стесняйтесь звонить</p>
+          <p class="contacts__paragraph">нам сейчас</p>
+          <p class="contacts__paragraph">+7 (925) 000 00 00</p>
+        </div>
+      </div>
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/evacuator.svg" alt="">
+        <div>
+          <p class="contacts__paragraph">Круглосуточная помощь</p>
+          <p class="contacts__paragraph">на дороге</p>
+          <p class="contacts__paragraph">+7 (495) 577 27 10</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="./script-js/script.js"></script>
+  <script src="./script-js/expert-carousel.js"></script>
 </body>
 
 </html>

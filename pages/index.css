@@ -1,12 +1,14 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/Inter/inter.css);
+@import url(../vendor/fonts/fonts.css);
 
 /* Page */
 @import url(../blocks/page/page.css);
+@import url('../blocks/section-intro/section-intro.css');
+@import url('../blocks/section-intro/__dash/section-intro__dash.css');
+@import url('../blocks/section-intro/__subtitle/section-intro__subtitle.css');
+@import url('../blocks/section-intro/__title/section-intro__title.css');
 
 /* Services */
-@import url(../blocks/services/__title/services__title.css);
-@import url(../blocks/services/__subtitle/services__subtitle.css);
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/nav-tabs/__container/nav-tabs__container.css);
 @import url(../blocks/services/nav-tabs/__image/nav-tabs__img.css);
@@ -23,6 +25,7 @@
 @import url(../blocks/caption/__text/caption__text.css);
 
 /* Vehicle container */
+
 @import url(../blocks/vehicle-container/__icon/__batteries/icon__batteries.css);
 @import url(../blocks/vehicle-container/__icon/__diagnostics/icon__diagnostics.css);
 @import url(../blocks/vehicle-container/__icon/__engine/icon__engine.css);
@@ -34,5 +37,62 @@
 @import url(../blocks/vehicle-container/vehicle-container.css);
 @import url(../blocks/vehicle-container/__icon/vehicle-container__icon.css);
 @import url(../blocks/services/__interactive-pic.css/__title/interactive-pic__title.css);
+@import url(../blocks/vehicle-container/__icon/_active/vehicle-container__icon_active.css);
 
 
+/* Interview section */
+@import url('../blocks/interview/interview.css');
+@import url('../blocks/interview/__history/interview__history.css');
+@import url('../blocks/interview/__photo/interview__photo.css');
+@import url('../blocks/interview/__wrapper/interview__wrapper.css');
+@import url('../blocks/interview/__title/interview__title.css');
+@import url('../blocks/interview/__paragraph/interview__paragraph.css');
+
+/* values */
+@import url('../blocks/values/values.css');
+@import url('../blocks/values/__paragraph/values__paragraph.css');
+@import url('../blocks/values/__title/values__title.css');
+@import url('../blocks/values/__item/values__item.css');
+@import url('../blocks/values/__list/values__list.css');
+@import url('../blocks/values/__list-item/values__list-item.css');
+
+
+/* Experts */
+@import url('../blocks/experts/experts.css');
+@import url('../blocks/section-intro/_experts/section-intro_left.css');
+@import url('../blocks/experts/__btn/experts__btn.css');
+@import url('../blocks/experts/__btn/_btn-next/experts__btn_next.css');
+@import url('../blocks/experts/__btn/_btn-prev/experts__btn_prev.css');
+@import url('../blocks/experts/__buttons/experts__buttons.css');
+@import url('../blocks/experts/__slider-container/experts__slider-container.css');
+@import url('../blocks/experts/__slider-track/experts__slider-track.css');
+@import url('../blocks/experts/__wrapper/experts__wrapper.css');
+@import url('../blocks/experts/__slider-item/experts__slider-item.css');
+@import url('../blocks/experts/__slider-image/experts__slider-image.css');
+@import url('../blocks/experts/__label/experts__label.css');
+@import url('../blocks/experts/__position/experts__position.css');
+@import url('../blocks/experts/__name/experts__name.css');
+
+/* News */
+@import url('../blocks/news/news.css');
+@import url('../blocks/news/__list/news__list.css');
+@import url('../blocks/news/__carousel/news__carousel.css');
+@import url('../blocks/news/__item/news__item.css');
+@import url('../blocks/news/__paragraph/news__paragraph.css');
+
+
+/* find-us */
+@import url('../blocks/find-us/find-us.css');
+@import url('../blocks/find-us/__map/find-us__map.css');
+
+/* contacts */
+@import url('../blocks/contacts/contacts.css');
+@import url('../blocks/contacts/__item/contacts__item.css');
+@import url('../blocks/contacts/__paragraph/contacts__paragraph.css');
+@import url('../blocks/contacts/__icon/contacts__icon.css');
+
+/* Brands */
+@import url('../blocks/brands/brands.css');
+@import url('../blocks/brands/__logo/brands__logo.css');
+@import url('../blocks/brands/__ribbon/brands__ribbon.css');
+@import url('../blocks/brands/__item/brands__item.css');

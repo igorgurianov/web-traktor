@@ -1,0 +1,9 @@
+.section-intro__dash {
+  background-image: url('../../../images/dash-svgrepo-com.svg');
+  padding-top: 20px;
+  width: 60px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}

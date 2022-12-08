@@ -1,8 +1,11 @@
 .icon__tires {
   top: 65%;
   left: 80%;
-  background-image: url(../../../../images/tire-svgrepo-com.svg);
 }
-.icon__tires:hover {
-  background-image: url(../../../../images/tire-active.svg);
+
+.icon__tires::before {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(../../../../images/tire-svgrepo-com.svg);
 }

@@ -3,8 +3,9 @@
   padding: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(6, 100px);
-  justify-content: center;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
   justify-items: stretch;
-  column-gap: 10px;
+  column-gap: 4px;
 }

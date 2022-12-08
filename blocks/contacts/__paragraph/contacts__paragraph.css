@@ -1,0 +1,8 @@
+.contacts__paragraph {
+  margin: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}

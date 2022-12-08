@@ -1,0 +1,5 @@
+.contacts__icon {
+  height: 40px;
+  width: 40px;
+  filter: invert(85%) sepia(3%) saturate(112%) hue-rotate(169deg) brightness(84%) contrast(84%);
+}

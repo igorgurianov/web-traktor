@@ -1,9 +1,11 @@
 .icon__transmission {
   top: 70%;
   left: 40%;
-  background-image: url(../../../../images/gearshift-shift-svgrepo-com.svg);
 }
 
-.icon__transmission:hover {
-  background-image: url(../../../../images/gearshift-active.svg);
+.icon__transmission::before {
+  content: '';
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url(../../../../images/gearshift-shift-svgrepo-com.svg);
 }

@@ -1,0 +1,9 @@
+.experts__slider-image {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 290px;
+  width: 240px;
+  border-bottom: 2px solid #ffc513;
+  border-radius: 10px 10px 0 0;
+}

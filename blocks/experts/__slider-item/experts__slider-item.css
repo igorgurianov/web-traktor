@@ -1,0 +1,8 @@
+.experts__slider-item {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.experts__slider-item:last-child {
+  margin: 0;
+}

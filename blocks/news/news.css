@@ -1,0 +1,7 @@
+.news {
+  margin: 0 auto;
+  padding: 80px 20px;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}

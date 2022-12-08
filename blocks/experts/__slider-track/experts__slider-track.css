@@ -1,0 +1,8 @@
+.experts__slider-track {
+  padding: 0;
+  margin: 0;
+  display: flex;
+
+  list-style-type: none;
+  transition: .2s;
+}
