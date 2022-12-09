@@ -96,3 +96,20 @@
 @import url('../blocks/brands/__logo/brands__logo.css');
 @import url('../blocks/brands/__ribbon/brands__ribbon.css');
 @import url('../blocks/brands/__item/brands__item.css');
+
+/* review */
+@import url('../blocks/review/review.css');
+@import url('../blocks/review/__widget/review__widget.css');
+
+@import url('../blocks/footer/footer.css');
+
+/* Footer */
+@import url('../blocks/info-wrapper/info-wrapper.css');
+@import url('../blocks/footer/paragraph/footer__paragraph.css');
+@import url('../blocks/footer/__our-services/footer__our-services.css');
+@import url('../blocks/footer/__wrapper/footer__wrapper.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__list-container/footer__list-container.css');
+@import url('../blocks/section-intro/__dash/_footer/section-intro__dash_footer.css');
+@import url('../blocks/footer/__subtitle/footer__subtitle.css');
+@import url('../blocks/footer/paragraph/_info/footer__paragraph_info.css');

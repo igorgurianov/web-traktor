@@ -1,12 +1,12 @@
 .vehicle-container {
   margin: 0 auto;
   padding: 0;
-  background-image: url(../../images/DT-75-Tractor.svg);
+  background-image: url(../../images/new\ tractor.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 80%;
+  background-size: 100%;
   aspect-ratio: 2/1;
   position: relative;
-  width: 80%;
+  width: 100%;
   z-index: 3;
 }

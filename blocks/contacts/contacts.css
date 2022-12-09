@@ -1,6 +1,8 @@
 .contacts {
+  margin: 0 auto;
+  max-width: 1170px;
   padding: 50px 10px;
   display: flex;
   justify-content: space-around;
-  background-color: #777;
+  border-bottom: 2px solid white;
 }
