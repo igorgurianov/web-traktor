@@ -2,7 +2,7 @@ const navtabbtns = document.querySelectorAll(".nav-tabs__btn"); // поиск к
 const iconEngine = document.querySelector(".icon__engine");
 const diagnoseBtn = document.getElementById("diagnose_btn");
 const captionText = document.querySelector(".caption__text"); // поиск текстового поля про услуги
-const vehicleContainer = document.querySelector('.vehicle-container') // контейнер с иконками на фоне трактора
+const vehicleContainer = document.querySelector('.interactive-pic') // контейнер с иконками на фоне трактора
 const vehicleContainerIcons = vehicleContainer.querySelectorAll('.vehicle-container__icon') // Все иконки внутри контейнера
 
 const textArrays = {

@@ -1,0 +1,31 @@
+.preloader__image {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  width: 50vw;
+  height: 50vh;
+
+  text-align: center;
+  z-index: 11;
+  filter: invert(1);
+  animation: preloader-rotate 2s infinite linear;
+}
+
+@keyframes preloader-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loaded_hiding .preloader {
+  transition: 0.3s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
+}

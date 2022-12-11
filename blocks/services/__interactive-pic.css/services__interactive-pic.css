@@ -1,7 +1,7 @@
 .interactive-pic {
 
   margin: 0;
-
+  background-color: #616161;
   position: relative;
   overflow: hidden;
 }

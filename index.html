@@ -10,6 +10,12 @@
 </head>
 
 <body class="page">
+
+  <!--Preloader-->
+  <div class="preloader">
+    <img class="preloader__image" src="./images/preload-gear-svgrepo-com.svg">
+  </div>
+
   <!-- Interview section -->
   <section class="interview">
     <div class="interview__wrapper">
@@ -45,10 +51,10 @@
       <div class="values__item">
         <h3 class="values__title">Главные ценности</h3>
         <ul class="values__list">
-          <li class="values__list-item">Командная работа через доверие и уважение.</li>
-          <li class="values__list-item">Приверженность энтузиазму клиентов.</li>
-          <li class="values__list-item">Ответственность на всех уровнях.</li>
-          <li class="values__list-item">Страсть к победе.</li>
+          <li class="values__list-item ticked-list">Командная работа через доверие и уважение.</li>
+          <li class="values__list-item ticked-list">Приверженность энтузиазму клиентов.</li>
+          <li class="values__list-item ticked-list">Ответственность на всех уровнях.</li>
+          <li class="values__list-item ticked-list">Страсть к победе.</li>
         </ul>
       </div>
     </div>
@@ -108,15 +114,15 @@
     </div>
     <div class="interactive-pic">
       <h2 class="interactive-pic__title"></h2>
-      <div class="vehicle-container">
-        <div data-type_icon="engine" class="icon__engine icon__engine_active vehicle-container__icon"></div>
-        <div data-type_icon="diagnostics" class="icon__diagnostics vehicle-container__icon"></div>
-        <div data-type_icon="oil-lube" class="icon__oil-lube vehicle-container__icon"></div>
-        <div data-type_icon="tires" class="icon__tires vehicle-container__icon"></div>
-        <div data-type_icon="transmission" class="icon__transmission vehicle-container__icon"></div>
-        <div data-type_icon="batteries" class="icon__batteries vehicle-container__icon vehicle-container__icon_active">
-        </div>
+      <img class="vehicle-container" src="./images/image2vector-2.svg">
+      <div data-type_icon="engine" class="icon__engine icon__engine_active vehicle-container__icon"></div>
+      <div data-type_icon="diagnostics" class="icon__diagnostics vehicle-container__icon"></div>
+      <div data-type_icon="oil-lube" class="icon__oil-lube vehicle-container__icon"></div>
+      <div data-type_icon="tires" class="icon__tires vehicle-container__icon"></div>
+      <div data-type_icon="transmission" class="icon__transmission vehicle-container__icon"></div>
+      <div data-type_icon="batteries" class="icon__batteries vehicle-container__icon">
       </div>
+
       <div class="caption">
         <img class="caption__pic" src="/images/info-svgrepo-com.svg" alt="Фото трактора" />
         <p class="caption__text"></p>
@@ -133,7 +139,7 @@
       </p>
       <div class="section-intro__dash"></div>
     </div>
-    <div class="review__widget" style="width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
+    <div class="review__widget" style="max-width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
         style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
         src="https://yandex.ru/maps-reviews-widget/226327670406?comments"></iframe><a
         href="https://yandex.uz/maps/org/muzei_zapovednik_izmailovo/226327670406/" target="_blank"
@@ -311,70 +317,56 @@
         <div class="section-intro__dash section-intro__dash_footer"></div>
         <p class="footer__paragraph">Бронницы Бояркино</p>
         <p class="footer__paragraph">17 километр, д. 15</p>
-        <ul class="footer__list-container">
-          <li class="footer__list">
-            <p class="footer__paragraph">Телефон: </p>
-            <p class="footer__paragraph">+7 (925) 000 00 00</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Email: </p>
-            <p class="footer__paragraph footer__paragraph_info">web-tractor@mail.com</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Помощь: </p>
-            <p class="footer__paragraph">+7 (495) 577 27 10</p>
-          </li>
-        </ul>
+        <div class="footer__list-wrapper">
+          <p class="footer__paragraph">Телефон: </p>
+          <p class="footer__paragraph">+7 (495) 577 27 10</p>
+          <p class="footer__paragraph">Email: </p>
+          <p class="footer__paragraph">web-tractor@mail.com</p>
+          <p class="footer__paragraph">Помощь: </p>
+          <p class="footer__paragraph">+7 (925) 000 00 00</p>
+        </div>
       </div>
       <div class="footer__our-services">
         <h3 class="footer__subtitle">Наши услуги</h3>
         <div class="section-intro__dash section-intro__dash_footer"></div>
         <ul class="footer__list-container">
-          <li class="footer__paragraph">Масло и фильтры</li>
-          <li class="footer__paragraph">Ремни и шланги</li>
-          <li class="footer__paragraph">Кондиционирование воздуха</li>
+          <li class="footer__paragraph_ticked ticked-list">Диагностика двигателя</li>
+          <li class="footer__paragraph_ticked ticked-list">Масло и фильтры</li>
+          <li class="footer__paragraph_ticked ticked-list">Ремни и шланги</li>
+          <li class="footer__paragraph_ticked ticked-list">Ремонт тормозов</li>
+          <li class="footer__paragraph_ticked ticked-list">Услуги шин и колес</li>
+          <li class="footer__paragraph_ticked ticked-list">Кондиционирование воздуха</li>
+          <li class="footer__paragraph_ticked ticked-list">Другие виды сервиса</li>
+
+
         </ul>
       </div>
       <div class="footer__hours">
         <h3 class="footer__subtitle">Часы работы</h3>
         <div class="section-intro__dash section-intro__dash_footer"></div>
-        <ul class="footer__list-container">
-          <li class="footer__list">
-            <p class="footer__paragraph">Понедельник</p>
-            <p class="footer__paragraph">7:30 - 17:30</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Вторник</p>
-            <p class="footer__paragraph">7:30 - 17:30</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Среда</p>
-            <p class="footer__paragraph">7:30 - 17:30</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Четверг</p>
-            <p class="footer__paragraph">7:30 - 17:30</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Пятница</p>
-            <p class="footer__paragraph">7:30 - 17:30</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Суббота</p>
-            <p class="footer__paragraph">10:00 - 17:00</p>
-          </li>
-          <li class="footer__list">
-            <p class="footer__paragraph">Воскресенье</p>
-            <p class="footer__paragraph">Выходной</p>
-          </li>
-        </ul>
+        <div class="footer__list-wrapper">
+          <p class="footer__paragraph">Понедельник:</p>
+          <p class="footer__paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph">Вторник:</p>
+          <p class="footer__paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph">Среда:</p>
+          <p class="footer__paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph">Четверг:</p>
+          <p class="footer__paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph">Пятница:</p>
+          <p class="footer__paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph">Суббота:</p>
+          <p class="footer__paragraph">10:00 - 17:00</p>
+          <p class="footer__paragraph">Воскресенье:</p>
+          <p class="footer__paragraph">Выходной</p>
+        </div>
       </div>
     </div>
 
 
   </footer>
 
-
+  <script src="./script-js/preloader.js"> </script>
   <script src="./script-js/script.js"></script>
   <script src="./script-js/expert-carousel.js"></script>
 </body>

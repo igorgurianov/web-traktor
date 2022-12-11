@@ -1,12 +1,8 @@
 .vehicle-container {
   margin: 0 auto;
-  padding: 0;
-  background-image: url(../../images/new\ tractor.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  aspect-ratio: 2/1;
-  position: relative;
+  box-sizing: border-box;
+  padding: 10% 15%;
   width: 100%;
-  z-index: 3;
+  background-color: #616161;
+  object-position: center;
 }
