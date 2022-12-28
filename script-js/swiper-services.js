@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-services', {
+const swiperServices = new Swiper('.swiper-services', {
 
   breakpoints: {
     // when window width is >= 320px

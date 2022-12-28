@@ -1,4 +1,5 @@
-const swiper = new Swiper('.swiper-experts', {
+const swiperExperts = new Swiper('.swiper-experts', {
+
   // Optional parameters
   grabCoursor: true,
 
@@ -25,7 +26,6 @@ const swiper = new Swiper('.swiper-experts', {
       spaceBetween: 20,
     }
   },
-
 
   // If we need pagination
   pagination: {
