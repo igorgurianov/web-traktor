@@ -4,5 +4,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
+}
 
+@media screen and (max-width:768px) {
+  .footer__wrapper {
+    grid-template-columns: none;
+    justify-content: start;
+  }
 }

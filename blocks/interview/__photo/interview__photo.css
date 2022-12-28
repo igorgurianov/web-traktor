@@ -5,3 +5,10 @@
   aspect-ratio: 1;
   width: 100%;
 }
+
+@media screen and (max-width:768px) {
+  .interview__photo {
+    margin-left: 0;
+    width: 80%;
+  }
+}

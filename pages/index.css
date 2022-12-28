@@ -1,6 +1,15 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
+
+/* text_style */
+
+@import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph.css');
+@import url('../blocks/text/_style/_bold-paragraph/text_style_bold-paragraph.css');
+@import url('../blocks/text/_style/_title/text_style_title.css');
+@import url('../blocks/text/_style/_subtitle/text_style_subtitle.css');
+
+
 /* Page */
 @import url(../blocks/page/page.css);
 @import url('../blocks/section-intro/section-intro.css');
