@@ -23,7 +23,7 @@ const swiperExperts = new Swiper('.swiper-experts', {
 
     1024: {
       slidesPerView: 4,
-      spaceBetween: 20,
+      spaceBetween: 10,
     }
   },
 

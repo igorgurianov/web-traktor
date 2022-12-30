@@ -1,0 +1,11 @@
+.swiper-experts {
+  padding-bottom: 30px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets {
+  bottom: 0px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ffc513;
+}

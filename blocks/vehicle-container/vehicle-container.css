@@ -1,8 +1,9 @@
 .vehicle-container {
   margin: 0 auto;
+  display: block;
   box-sizing: border-box;
-  padding: 3% 15%;
-  width: 100%;
+  padding: 10%;
+  width: 80%;
   background-color: #616161;
   object-position: center;
 }
@@ -10,5 +11,6 @@
 @media screen and (max-width: 768px) {
   .vehicle-container {
     padding: 3% 1%;
+    width: 100%;
   }
 }

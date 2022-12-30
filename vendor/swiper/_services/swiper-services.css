@@ -1,0 +1,11 @@
+.swiper-services {}
+
+.swiper-button-next {
+  right: 0;
+  color: #ffc513;
+}
+
+.swiper-button-prev {
+  color: #ffc513;
+  left: 0;
+}

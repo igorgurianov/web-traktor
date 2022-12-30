@@ -156,3 +156,10 @@
 
 /* ticked-list */
 @import url('../blocks/ticked-list/ticked-list.css');
+
+/* swiper */
+
+@import url('../vendor/swiper/swiper.css');
+@import url('../vendor/swiper/__pagination/swiper__pagination.css');
+@import url('../vendor/swiper/_experts/swiper-experts.css');
+@import url('../vendor/swiper/_services/swiper-services.css');
