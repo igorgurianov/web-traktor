@@ -5,14 +5,17 @@
 .ticked-list::before {
   content: "";
   position: absolute;
+  top: 0;
   left: 0;
   width: 24px;
   height: 24px;
   -webkit-mask-size: 100%;
   mask-size: 100%;
+  mask-position: center;
+  -webkit-mask-position: center;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background-color: #ffc513;
-  -webkit-mask-image: url('../../../images/tick-svgrepo-com.svg');
-  mask-image: url('../../../images/tick-svgrepo-com.svg');
+  -webkit-mask-image: url('../../images/tick-svgrepo-com.svg');
+  mask-image: url('../../images/tick-svgrepo-com.svg');
 }
