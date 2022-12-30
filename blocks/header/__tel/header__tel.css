@@ -1,0 +1,26 @@
+.header__tel {
+  padding-left: 20px;
+  color: white;
+  display: block;
+  padding-left: 40px;
+  position: relative;
+}
+
+.header__tel:hover {
+  cursor: pointer;
+}
+
+.header__tel::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: white;
+  -webkit-mask-image: url('../../../images/call-cell-communication-phone-ring-talk.svg');
+  mask-image: url('../../../images/call-cell-communication-phone-ring-talk.svg');
+}

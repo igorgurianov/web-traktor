@@ -1,0 +1,25 @@
+.header__address {
+  color: white;
+  display: block;
+  padding-left: 40px;
+  position: relative;
+}
+
+.header__address:hover {
+  cursor: pointer;
+}
+
+.header__address::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: white;
+  -webkit-mask-image: url('../../../images/location-3-svgrepo-com.svg');
+  mask-image: url('../../../images/location-3-svgrepo-com.svg');
+}

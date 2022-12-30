@@ -1,0 +1,22 @@
+.header__hamburger {
+  padding: 0;
+  display: none;
+  width: 40px;
+  height: 40px;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: white;
+  -webkit-mask-image: url('../../../images/horizontal-menu-svgrepo-com.svg');
+  mask-image: url('../../../images/horizontal-menu-svgrepo-com.svg');
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__hamburger {
+    display: block;
+  }
+}

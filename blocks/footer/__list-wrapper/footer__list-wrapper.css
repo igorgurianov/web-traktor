@@ -2,6 +2,4 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   column-gap: 20px;
-  font-size: inherit;
-  line-height: inherit;
 }

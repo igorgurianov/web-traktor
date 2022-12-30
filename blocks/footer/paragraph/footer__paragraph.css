@@ -1,6 +1,7 @@
 .footer__paragraph {
   margin: 0;
   padding: 10px 0 0;
+  color: white;
 }
 
 @media screen and (max-width:768px) {

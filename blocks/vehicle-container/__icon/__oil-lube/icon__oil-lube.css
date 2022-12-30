@@ -1,6 +1,6 @@
 .icon__oil-lube {
-  top: 43%;
-  left: 20%;
+  top: 38%;
+  left: 24%;
 }
 
 .icon__oil-lube::before {
@@ -9,4 +9,3 @@
   background-repeat: no-repeat;
   background-image: url(../../../../images/oil-svgrepo-com.svg);
 }
-

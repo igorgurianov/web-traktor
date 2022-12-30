@@ -9,9 +9,33 @@
 @import url('../blocks/text/_style/_title/text_style_title.css');
 @import url('../blocks/text/_style/_subtitle/text_style_subtitle.css');
 
+/* link style */
+
+@import url('../blocks/link/_style/link_style_regular.css');
+
+/* section-box */
+@import url('../blocks/section-box/section-box.css');
+
+/* header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__info/header__info.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__tel/header__tel.css');
+@import url('../blocks/header/__address/header__address.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/header/__menu/header__menu.css');
+@import url('../blocks/header/__hamburger/header__hamburger.css');
+@import url('../blocks/header/__menu/_opened/header__menu_opened.css');
+@import url('../blocks/header/__wrapper/header__wrapper.css');
+@import url('../blocks/header/__wrapper/_opened/header__wrapper_opened.css');
+
+/* social media */
+@import url('../blocks/social-media/social-media.css');
+@import url('../blocks/social-media/__telegram/social-media__telegram.css');
+@import url('../blocks/social-media/__whatsap/social-media__whatsap.css');
 
 /* Page */
-@import url(../blocks/page/page.css);
+@import url('../blocks/page/page.css');
 @import url('../blocks/section-intro/section-intro.css');
 @import url('../blocks/section-intro/__dash/section-intro__dash.css');
 @import url('../blocks/section-intro/__subtitle/section-intro__subtitle.css');
@@ -29,6 +53,8 @@
 @import url(../blocks/services/nav-tabs/__list/nav-tabs__list.css);
 @import url(../blocks/services/__interactive-pic.css/services__interactive-pic.css);
 @import url(../blocks/services/nav-tabs/__btn/_active/nav-tabs__btn_active.css);
+@import url('../blocks/services/__wrapper/services__wrapper.css');
+@import url('../blocks/services/__interactive-pic.css/services__interactive-pic.css');
 
 /* Caption */
 @import url(../blocks/caption/caption.css);
@@ -101,6 +127,7 @@
 @import url('../blocks/contacts/__item/contacts__item.css');
 @import url('../blocks/contacts/__paragraph/contacts__paragraph.css');
 @import url('../blocks/contacts/__icon/contacts__icon.css');
+@import url('../blocks/contacts/__container/contacts__container.css');
 
 /* Brands */
 @import url('../blocks/brands/brands.css');

@@ -1,0 +1,14 @@
+.header__menu {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 300px;
+  }
+}

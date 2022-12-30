@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>web-tractor</title>
+  <title>Web-tractor</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./pages/index.css" />
 </head>
@@ -17,13 +17,36 @@
     <img class="preloader__image" src="./images/preload-gear-svgrepo-com.svg">
   </div>
 
+  <!--Header-->
+
+  <header class="header">
+    <button type="button" class="header__hamburger"></button>
+    <div class="header__content">
+      <div class="header__wrapper">
+        <div class="header__menu">
+          <div class="header__info">
+            <a class="header__tel text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495) 577 27
+              10</a>
+            <a class="header__address text_style_bold-paragraph link_style_regular"
+              href="https://yandex.uz/maps/-/CCUrB8SfgC">Волгоград, ул Переяславская д.20Б</a>
+          </div>
+          <div class="social-media">
+            <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537"></a>
+            <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <main>
     <!-- Interview section -->
-    <section class="interview">
+    <section class="interview section-box">
       <div class="interview__wrapper">
         <img class="interview__photo" src="./images/founder-img.png" alt="Фото основателей компании">
         <div class="interview__history">
-          <h2 class="interview__title text_style_title">Как все начиналось История от основателей</h2>
+          <h2 class="interview__title text_style_title">Как все начиналось</h2>
+          <h2 class="interview__title text_style_title">История от основателей</h2>
           <div class="section-intro__dash"></div>
           <p class="interview__paragraph text_style_regular-paragraph">Семья занимается общим ремонтом автомобилей уже
             более
@@ -67,7 +90,7 @@
 
     <!-- services section -->
 
-    <section class="services">
+    <section class="services section-box">
       <div class="section-intro">
         <h2 class="section-intro__title text_style_title">Наши рекомендуемые услуги</h2>
         <p class="section-intro__subtitle text_style_bold-paragraph">
@@ -76,7 +99,6 @@
         <div class="section-intro__dash"></div>
       </div>
       <div class="nav-tabs__container">
-
         <!-- Slider main container -->
         <div class="swiper swiper-services">
           <!-- Additional required wrapper -->
@@ -124,54 +146,31 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
         </div>
-
-
-        <ul class="nav-tabs__list">
-          <li class="nav-tabs__item">
-
-          </li>
-          <li class="nav-tabs__item">
-
-          </li>
-          <li class="nav-tabs__item">
-
-          </li>
-          <li class="nav-tabs__item">
-
-          </li>
-          <li class="nav-tabs__item">
-
-          </li>
-          <li class="nav-tabs__item">
-
-          </li>
-        </ul>
       </div>
-      <div class="interactive-pic">
-        <h2 class="interactive-pic__title"></h2>
-        <img class="vehicle-container" src="./images/image2vector-2.svg">
-        <div data-type_icon="engine" class="icon__engine icon__engine_active vehicle-container__icon"></div>
-        <div data-type_icon="diagnostics" class="icon__diagnostics vehicle-container__icon"></div>
-        <div data-type_icon="oil-lube" class="icon__oil-lube vehicle-container__icon"></div>
-        <div data-type_icon="tires" class="icon__tires vehicle-container__icon"></div>
-        <div data-type_icon="transmission" class="icon__transmission vehicle-container__icon"></div>
-        <div data-type_icon="batteries" class="icon__batteries vehicle-container__icon">
-        </div>
+      <div class="services__wrapper">
+        <div class="interactive-pic">
+          <div class="caption">
+            <p class="caption__text text_style_regular-paragraph"></p>
+          </div>
+          <img class="vehicle-container" src="./images/image2vector-2.svg">
+          <div data-type_icon="engine" class="icon__engine icon__engine_active vehicle-container__icon"></div>
+          <div data-type_icon="diagnostics" class="icon__diagnostics vehicle-container__icon"></div>
+          <div data-type_icon="oil-lube" class="icon__oil-lube vehicle-container__icon"></div>
+          <div data-type_icon="tires" class="icon__tires vehicle-container__icon"></div>
+          <div data-type_icon="transmission" class="icon__transmission vehicle-container__icon"></div>
+          <div data-type_icon="batteries" class="icon__batteries vehicle-container__icon">
 
-        <div class="caption">
-          <img class="caption__pic" src="/images/info-svgrepo-com.svg" alt="Фото трактора" />
-          <p class="caption__text"></p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Review section -->
-    <section class="review">
+    <section class="review section-box">
       <div class="section-intro">
         <h2 class="section-intro__title text_style_title">Причины обращаться к нам</h2>
         <p class="section-intro__subtitle text_style_bold-paragraph">
-          Высокое качество и скорость выполнения работ. Множество положительных отзывов
-        </p>
+          Высокое качество и скорость выполнения работ. Множество положительных отзывов</p>
         <div class="section-intro__dash"></div>
       </div>
       <div class="review__widget" style="max-width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
@@ -184,7 +183,7 @@
 
     <!-- Expert team section -->
 
-    <section class="experts">
+    <section class="experts section-box">
       <div class="section-intro">
         <h2 class="section-intro__title text_style_title">Встречайте команду экспертов</h2>
         <p class="section-intro__subtitle text_style_bold-paragraph">
@@ -248,7 +247,7 @@
 
     <!-- News section -->
 
-    <section class="news">
+    <section class="news section-box">
       <div class="new__sidebar">
         <div class="section-intro section-intro_left">
           <h2 class="section-intro__title text_style_subtitle">Новости и обновления</h2>
@@ -295,7 +294,7 @@
 
     <!-- We fix everything-->
 
-    <section class="brands">
+    <section class="brands section-box">
       <div class="section-intro">
         <h2 class="section-intro__title text_style_title">Мы ремонтируем все марки тракторов</h2>
         <p class="section-intro__subtitle text_style_bold-paragraph">
@@ -324,7 +323,7 @@
     </section>
 
     <!-- Find us section -->
-    <section class="find-us">
+    <section class="find-us section-box">
       <div style="position:relative;overflow:hidden;"><a
           href="https://yandex.uz/maps/org/muzei_zapovednik_izmailovo/226327670406/?utm_medium=mapframe&utm_source=maps"
           style="color:#eee;font-size:12px;position:absolute;top:0px;">Музей-заповедник Измайлово</a><a
@@ -342,7 +341,7 @@
     <div class="contacts">
       <div class="contacts__item">
         <img class="contacts__icon" src="./images/map.svg" alt="">
-        <div>
+        <div class="contacts__container">
           <p class="contacts__paragraph text_style_bold-paragraph">Бронницы Бояркино</p>
           <p class="contacts__paragraph text_style_bold-paragraph">17 километр</p>
           <p class="contacts__paragraph text_style_bold-paragraph">строение 15</p>
@@ -350,18 +349,22 @@
       </div>
       <div class="contacts__item">
         <img class="contacts__icon" src="./images/phone-call.svg" alt="">
-        <div>
+        <div class="contacts__container">
           <p class="contacts__paragraph text_style_bold-paragraph">Не стесняйтесь звонить</p>
           <p class="contacts__paragraph text_style_bold-paragraph">нам сейчас</p>
-          <p class="contacts__paragraph text_style_bold-paragraph">+7 (925) 000 00 00</p>
+          <a class="contacts__paragraph text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
         </div>
       </div>
       <div class="contacts__item">
         <img class="contacts__icon" src="./images/evacuator.svg" alt="">
-        <div>
+        <div class="contacts__container">
           <p class="contacts__paragraph text_style_bold-paragraph">Круглосуточная помощь</p>
           <p class="contacts__paragraph text_style_bold-paragraph">на дороге</p>
-          <p class="contacts__paragraph text_style_bold-paragraph">+7 (495) 577 27 10</p>
+          <a class="contacts__paragraph text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
         </div>
       </div>
     </div>
@@ -373,11 +376,15 @@
         <p class="footer__paragraph text_style_regular-paragraph">17 километр, д. 15</p>
         <div class="footer__list-wrapper">
           <p class="footer__paragraph text_style_regular-paragraph">Телефон: </p>
-          <p class="footer__paragraph text_style_regular-paragraph">+7 (495) 577 27 10</p>
+          <a class="text_style_regular-paragraph footer__paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
           <p class="footer__paragraph text_style_regular-paragraph">Email: </p>
-          <p class="footer__paragraph text_style_regular-paragraph">web-tractor@mail.com</p>
+          <p class="footer__paragraph text_style_regular-paragraph link_style_regular">web-tractor@mail.com</p>
           <p class="footer__paragraph text_style_regular-paragraph">Помощь: </p>
-          <p class="footer__paragraph text_style_regular-paragraph">+7 (925) 000 00 00</p>
+          <a class="text_style_regular-paragraph footer__paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
         </div>
       </div>
       <div class="footer__our-services">
@@ -421,6 +428,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script-js/swiper-services.js"></script>
   <script src="./script-js/swiper-experts.js"></script>
+  <script src="./script-js/burger-menu.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,8 @@
+.social-media__whatsap {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url('../../../images/whatsapp-whats-app-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
