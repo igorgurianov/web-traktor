@@ -1,0 +1,13 @@
+.numbers__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+@media screen and (max-width:426px) {
+  .numbers__wrapper {
+    flex-direction: column;
+
+  }
+}

@@ -1,9 +1,9 @@
 .section-intro__dash {
+  display: inline-block;
+  margin: 10px 0;
+  width: 64px;
+  height: 3px;
+  background-color: #ffc513;
+  background-size: contain;
   background-image: url('../../../images/dash-svgrepo-com.svg');
-  padding-top: 20px;
-  width: 60px;
-  height: 15px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
 }

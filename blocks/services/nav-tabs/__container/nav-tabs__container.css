@@ -1,3 +1,9 @@
 .nav-tabs__container {
-  padding: 10px 0;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+  .nav-tabs__container {
+    padding: 5px 0;
+  }
 }

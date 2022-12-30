@@ -1,4 +1,6 @@
-.swiper-services {}
+.swiper-services {
+  padding-bottom: 3px;
+}
 
 .swiper-button-next {
   right: 0;
@@ -8,4 +10,10 @@
 .swiper-button-prev {
   color: #ffc513;
   left: 0;
+}
+
+@media screen and (max-width:768px) {
+  .swiper-services {
+    padding-bottom: 20px;
+  }
 }

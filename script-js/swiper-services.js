@@ -11,10 +11,10 @@ const swiperServices = new Swiper('.swiper-services', {
       slidesPerView: 6,
       spaceBetween: 7,
     },
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    }
+  },
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
   },
 
   // Navigation arrows

@@ -8,6 +8,9 @@
 @import url('../blocks/text/_style/_bold-paragraph/text_style_bold-paragraph.css');
 @import url('../blocks/text/_style/_title/text_style_title.css');
 @import url('../blocks/text/_style/_subtitle/text_style_subtitle.css');
+@import url('../blocks/text/_style/_number-digit/text_style_number-digit.css');
+@import url('../blocks/text/_style/_number-stat/text_style_number-stat.css');
+@import url('../blocks/text/_style/_services-btn/text_style_services-btn.css');
 
 /* link style */
 
@@ -109,6 +112,14 @@
 @import url('../blocks/experts/__label/experts__label.css');
 @import url('../blocks/experts/__position/experts__position.css');
 @import url('../blocks/experts/__name/experts__name.css');
+
+/* Numbers */
+@import url('../blocks/numbers/numbers.css');
+@import url('../blocks/numbers/__wrapper/numbers__wrapper.css');
+@import url('../blocks/numbers/__item/numbers__item.css');
+@import url('../blocks/numbers/__digit/numbers__digit.css');
+@import url('../blocks/numbers/__stat/numbers__stat.css');
+@import url('../blocks/numbers/__stat-container/numbers__stat-container.css');
 
 /* News */
 @import url('../blocks/news/news.css');

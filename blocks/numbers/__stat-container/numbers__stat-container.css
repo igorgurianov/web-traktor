@@ -1,0 +1,4 @@
+.numbers__stat-container {
+  display: flex;
+  flex-direction: column;
+}

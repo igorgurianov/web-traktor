@@ -1,0 +1,5 @@
+.numbers__digit {
+  margin: 0;
+  padding-right: 15px;
+  border-right: 3px solid #ffc513;
+}
