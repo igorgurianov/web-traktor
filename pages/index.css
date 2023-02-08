@@ -94,7 +94,7 @@
 
 @import url(../blocks/vehicle-container/vehicle-container.css);
 @import url(../blocks/vehicle-container/__icon/vehicle-container__icon.css);
-@import url(../blocks/services/__interactive-pic.css/__title/interactive-pic__title.css);
+
 @import url(../blocks/vehicle-container/__icon/_active/vehicle-container__icon_active.css);
 
 

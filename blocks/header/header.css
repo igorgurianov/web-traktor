@@ -2,7 +2,7 @@
   position: relative;
   top: 0;
   z-index: 99;
-  min-height: 60px;
+  min-height: 50px;
   background-color: #777;
   margin: 0 auto;
   max-width: 1170px;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
   .header::before {
-    top: 2px;
+    top: -4px;
     left: 20px;
     height: 50px;
     width: 50px;
@@ -33,7 +33,7 @@
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
     background-color: white;
-    -webkit-mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
-    mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+    -webkit-mask-image: url('../../images/logo-tractor-svgrepo-com.svg');
+    mask-image: url('../../images/logo-tractor-svgrepo-com.svg');
   }
 }
