@@ -1,12 +1,14 @@
 .header__info {
+  grid-area: header__info;
   display: flex;
-  flex-direction: column;
-  gap: 7px;
+  gap: 50px;
+
 }
 
 
 @media screen and (max-width: 768px) {
   .header__info {
+    flex-direction: column;
     gap: 30px;
   }
 }

@@ -1,8 +1,39 @@
 .header {
-  background-color: #777;
-  position: sticky;
+  position: relative;
   top: 0;
-  width: 100%;
   z-index: 99;
   min-height: 60px;
+  background-color: #777;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    position: sticky;
+    top: 0;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .header::before {
+    top: 2px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    content: '';
+    position: absolute;
+    -webkit-mask-size: 100%;
+    mask-size: 100%;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    background-color: white;
+    -webkit-mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+    mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+  }
 }

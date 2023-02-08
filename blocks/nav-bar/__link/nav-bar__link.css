@@ -1,0 +1,19 @@
+.nav-bar__link {
+  display: block;
+  padding: 22px 10px;
+  text-decoration: none;
+  text-align: center;
+  border: 3px solid transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar__link {
+    padding: 15px 10px;
+  }
+}
+
+.nav-bar__link:hover {
+  border-bottom-color: #ffc513;
+  transition: all 0.3s ease 0s;
+  opacity: .6;
+}

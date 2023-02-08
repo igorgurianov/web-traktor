@@ -22,26 +22,60 @@
   <!--Header-->
 
   <header class="header">
+
     <button type="button" class="header__hamburger"></button>
-    <div class="header__content">
-      <div class="header__wrapper">
-        <div class="header__menu">
-          <div class="header__info">
-            <a class="header__tel text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495) 577 27
-              10</a>
-            <a class="header__address text_style_bold-paragraph link_style_regular"
-              href="https://yandex.uz/maps/-/CCUrB8SfgC">Волгоград, ул Переяславская д.20Б</a>
-          </div>
-          <div class="social-media">
-            <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537"></a>
-            <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor"></a>
-          </div>
+
+    <div class="header__menu">
+      <button type="button" class="header__btn-close-hamburger"></button>
+      <nav class="nav-bar" id="myHeader">
+        <div class="nav-bar__container">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="#">Главная</a>
+            </li>
+            <li class="nav-bar__item ">
+              <a class="nav-bar__link text_style_navbar" href="./general-repair.html">Капитальный ремонт</a>
+            </li>
+            <li class="nav-bar__item ">
+              <a class="nav-bar__link text_style_navbar" href="./services.html">Сервис</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./machines.html">Наша техника</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./gallery.html">Галерея работ</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__topline">
+        <div class="header__info">
+          <a class="header__tel text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495) 577
+            27
+            10</a>
+          <a class="header__address text_style_bold-paragraph link_style_regular"
+            href="https://yandex.uz/maps/-/CCUrB8SfgC">Волгоград, ул Переяславская д.20Б</a>
+        </div>
+        <div class="social-media">
+          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537"></a>
+          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor"></a>
         </div>
       </div>
     </div>
+
+
+
   </header>
 
-  <main>
+  <!-- Navigation section -->
+
+
+
+
+  <main class="content">
     <!-- Interview section -->
     <section class="interview section-box">
       <div class="interview__wrapper">
@@ -167,7 +201,7 @@
       </div>
     </section>
 
-    <!-- Review section -->
+    <!-- Review section
     <section class="review section-box">
       <div class="section-intro">
         <h2 class="section-intro__title text_style_title">Причины обращаться к нам</h2>
@@ -182,7 +216,7 @@
           style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Музей-заповедник
           Измайлово на карте Москвы — Яндекс Карты</a></div>
     </section>
-
+      -->
     <!-- Expert team section -->
 
     <section class="experts section-box">
@@ -457,6 +491,7 @@
   </footer>
 
   <script src="./script-js/preloader.js"> </script>
+  <script src="./script-js/sticky-menu.js"></script>
   <script src="./script-js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script-js/swiper-services.js"></script>

@@ -1,0 +1,12 @@
+.text_style_navbar {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .text_style_navbar {
+    font-size: 16px;
+    color: white;
+  }
+}

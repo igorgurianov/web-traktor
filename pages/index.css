@@ -11,6 +11,7 @@
 @import url('../blocks/text/_style/_number-digit/text_style_number-digit.css');
 @import url('../blocks/text/_style/_number-stat/text_style_number-stat.css');
 @import url('../blocks/text/_style/_services-btn/text_style_services-btn.css');
+@import url('../blocks/text/_style/_navbar/text_style_navbar.css');
 
 /* link style */
 
@@ -31,6 +32,22 @@
 @import url('../blocks/header/__menu/_opened/header__menu_opened.css');
 @import url('../blocks/header/__wrapper/header__wrapper.css');
 @import url('../blocks/header/__wrapper/_opened/header__wrapper_opened.css');
+@import url('../blocks/header/__cover/header__cover.css');
+@import url('../blocks/header/__topline/header__topline.css');
+@import url('../blocks/header/btn-close-hamburger/header__btn-close-hamburger.css');
+@import url('../blocks/nav-bar/_position-type_sticky/nav-bar_position-type_sticky.css');
+
+
+/* Navigation bar */
+@import url('../blocks/nav-bar/nav-bar.css');
+@import url('../blocks/nav-bar/__container/nav-bar__container.css');
+@import url('../blocks/nav-bar/__list/nav-bar__list.css');
+@import url('../blocks/nav-bar/__item/nav-bar__item.css');
+@import url('../blocks/nav-bar/__link/nav-bar__link.css');
+@import url('../blocks/nav-bar/__link/_active/nav-bar__link_active.css');
+
+
+
 
 /* social media */
 @import url('../blocks/social-media/social-media.css');
@@ -82,6 +99,7 @@
 
 /* Interview section */
 @import url('../blocks/interview/interview.css');
+@import url('../blocks/interview/_position_type_sticky/interview_position_type_sticky.css');
 @import url('../blocks/interview/__history/interview__history.css');
 @import url('../blocks/interview/__photo/interview__photo.css');
 @import url('../blocks/interview/__wrapper/interview__wrapper.css');
@@ -174,3 +192,6 @@
 @import url('../vendor/swiper/__pagination/swiper__pagination.css');
 @import url('../vendor/swiper/_experts/swiper-experts.css');
 @import url('../vendor/swiper/_services/swiper-services.css');
+
+/* Page in development */
+@import url('../blocks/development/development.css');

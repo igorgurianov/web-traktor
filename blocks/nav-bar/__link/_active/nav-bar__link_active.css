@@ -1,0 +1,4 @@
+.nav-bar__link_active {
+  border-bottom-color: #ffc513;
+  opacity: .6;
+}

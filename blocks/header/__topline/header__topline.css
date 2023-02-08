@@ -1,0 +1,14 @@
+.header__topline {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-area: header__topline;
+}
+
+@media screen and (max-width: 768px) {
+  .header__topline {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

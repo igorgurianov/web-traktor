@@ -1,0 +1,11 @@
+.interview_position_type_sticky {
+  padding-top: 120px;
+}
+
+.interview_position_type_sticky {}
+
+@media screen and (max-width: 768px) {
+  .interview_position_type_sticky {
+    padding: top 20px;
+  }
+}
