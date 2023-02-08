@@ -1,0 +1,11 @@
+.provide__link {
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  margin-top: 15px;
+
+  background-color: #ffc513;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}

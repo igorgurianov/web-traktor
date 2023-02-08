@@ -1,0 +1,4 @@
+.provide__selector-btn_active {
+  border-bottom: 3px solid #ffc513;
+  opacity: .6;
+}

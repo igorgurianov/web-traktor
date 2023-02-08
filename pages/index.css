@@ -12,6 +12,7 @@
 @import url('../blocks/text/_style/_number-stat/text_style_number-stat.css');
 @import url('../blocks/text/_style/_services-btn/text_style_services-btn.css');
 @import url('../blocks/text/_style/_navbar/text_style_navbar.css');
+@import url('../blocks/text/_style/_paragraph-reset/text_style_paragraph-reset.css');
 
 /* link style */
 
@@ -114,6 +115,19 @@
 @import url('../blocks/values/__list/values__list.css');
 @import url('../blocks/values/__list-item/values__list-item.css');
 
+
+/* we provide */
+@import url('../blocks/provide/__selector-btn/provide__selector-btn.css');
+@import url('../blocks/provide/__selector-img/provide__selector-img.css');
+@import url('../blocks/provide/__selector-wrapper/provide__selector-wrapper.css');
+@import url('../blocks/provide/__service-img/provide__service-img.css');
+@import url('../blocks/provide/__service-description/provide__service-description.css');
+@import url('../blocks/provide/__list-item/provide__list-item.css');
+@import url('../blocks/provide/__service-header/provide__service-header.css');
+@import url('../blocks/provide/__link/provide__link.css');
+@import url('../blocks/provide/__info-wraper/provide__info-wraper.css');
+@import url('../blocks/provide/__selector-btn/_active/provide__selector-btn_active.css');
+@import url('../blocks/provide/__info-wraper/_active/provide__info-wraper_active.css');
 
 /* Experts */
 @import url('../blocks/experts/experts.css');

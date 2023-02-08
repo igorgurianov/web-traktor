@@ -1,0 +1,11 @@
+.provide__info-wraper {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .provide__info-wraper {
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, minmax(min-content(), 1fr));
+  }
+}

@@ -218,6 +218,79 @@
     </section>
       -->
     <!-- Expert team section -->
+    <section class="provide">
+      <div class="section-intro section-box">
+        <h2 class="section-intro__title text_style_title">Мы предоставляем Экспертное Обслуживание</h2>
+        <p class="section-intro__subtitle text_style_bold-paragraph">
+          Мы стремимся заслужить ваше доверие и установить с вами долгосрочные отношения
+        </p>
+        <div class="section-intro__dash"></div>
+      </div>
+      <div class="provide__selector-wrapper">
+        <button data-service-provided="machines" class="provide__selector-btn provide__selector-btn_active"
+          type="button">
+          <img class="provide__selector-img" src="./images/machines.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">Наша техника</p>
+        </button>
+        <button data-service-provided="repair" class="provide__selector-btn" type="button">
+          <img class="provide__selector-img" src="./images/general-service.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">Капитальный ремонт</p>
+        </button>
+        <button data-service-provided="details" class="provide__selector-btn" type="button">
+          <img class="provide__selector-img" src="./images/regular-service.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">Запчасти</p>
+        </button>
+        <!---
+          <button class="provide__selector-btn" type="button">
+            <img class="provide__selector-img" src="./images/details.svg" alt="Запчасти">
+            <p class="text_style_paragraph-reset text_style_subtitle">Запчасти</p>
+          </button>
+          -->
+      </div>
+      <div class="provide__info-wraper provide__info-wraper_active provide__info-wraper_type_machines">
+        <img class="provide__service-img" src="./images/Our_machine_img.jpeg" alt="">
+        <div class="provide__service-description">
+          <h3 class="provide__service-header">Соберем и изготовим трактор специально для Вас:</h3>
+          <ul class="values__list">
+            <li class="provide__list-item text_style_regular-paragraph">Индивидуальный подход </li>
+            <li class="provide__list-item text_style_regular-paragraph">В любом количестве </li>
+            <li class="provide__list-item text_style_regular-paragraph">Индивидульные приборы в кабину</li>
+            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
+          </ul>
+          <a class="provide__link text_style_regular-paragraph" href="./machines.html">Узнать подробнее</a>
+        </div>
+      </div>
+
+      <div class="provide__info-wraper provide__info-wraper_type_repair">
+        <img class="provide__service-img" src="./images/remont.jpeg" alt="">
+        <div class="provide__service-description">
+          <h3 class="provide__service-header">Капитальный ремонт у нас и его преимущества:</h3>
+          <ul class="values__list">
+            <li class="provide__list-item text_style_regular-paragraph">Болшой опыт ремонта</li>
+            <li class="provide__list-item text_style_regular-paragraph">Оригинальные детали</li>
+            <li class="provide__list-item text_style_regular-paragraph">Ремонт любой сложности</li>
+            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
+          </ul>
+          <a class="provide__link text_style_regular-paragraph" href="./general-repair.html">Узнать подробнее</a>
+        </div>
+      </div>
+
+      <div class="provide__info-wraper provide__info-wraper_type_details">
+        <img class="provide__service-img" src="./images/details.jpeg" alt="">
+        <div class="provide__service-description">
+          <h3 class="provide__service-header">Почему стоить покупать запчасти у нас:</h3>
+          <ul class="values__list">
+            <li class="provide__list-item text_style_regular-paragraph">Высокое качество изготовления</li>
+            <li class="provide__list-item text_style_regular-paragraph">Скорость изготовления и доставки</li>
+            <li class="provide__list-item text_style_regular-paragraph">Оригинальные детали</li>
+            <li class="provide__list-item text_style_regular-paragraph">Делаем детали сами у себя на заводе</li>
+            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
+          </ul>
+          <a class="provide__link text_style_regular-paragraph" href="./spare-parts.html">Узнать подробнее</a>
+        </div>
+      </div>
+
+    </section>
 
     <section class="experts section-box">
       <div class="section-intro">
@@ -493,6 +566,7 @@
   <script src="./script-js/preloader.js"> </script>
   <script src="./script-js/sticky-menu.js"></script>
   <script src="./script-js/script.js"></script>
+  <script src="./script-js/provided-service-selector.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script-js/swiper-services.js"></script>
   <script src="./script-js/swiper-experts.js"></script>
