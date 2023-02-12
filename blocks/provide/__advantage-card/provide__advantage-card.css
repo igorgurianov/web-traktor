@@ -1,0 +1,37 @@
+.provide__advantage-card {
+  position: relative;
+  padding-left: 50px;
+}
+
+.provide__advantage-card::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  mask-position: center;
+  -webkit-mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: #ffc513;
+  -webkit-mask-image: url(../../../images/tick-square-svgrepo-com.svg);
+  mask-image: url(../../../images/tick-square-svgrepo-com.svg);
+}
+
+@media screen and (max-width:768px) {
+  .provide__advantage-card::before {
+    top: 20px;
+    left: 0;
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .provide__advantage-card {
+    padding-left: 40px;
+  }
+}

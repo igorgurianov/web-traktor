@@ -1,0 +1,10 @@
+/* for smooth sticky behaviour of header*/
+.content_position_type_sticky {
+  padding-top: 76px;
+}
+
+@media screen and (max-width: 768px) {
+  .content_position_type_sticky {
+    padding: top 20px;
+  }
+}

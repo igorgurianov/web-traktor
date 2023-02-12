@@ -8,5 +8,19 @@
   align-items: center;
   border: none;
   border-bottom: 2px solid transparent;
+  border-right: 1px solid #eef0f1;
+  border-left: 1px solid #eef0f1;
+}
 
+
+.provide__selector-btn:last-of-type {
+  border-right: none;
+}
+
+.provide__selector-btn:first-of-type {
+  border-left: none;
+}
+
+.provide__selector-btn:hover {
+  cursor: pointer;
 }

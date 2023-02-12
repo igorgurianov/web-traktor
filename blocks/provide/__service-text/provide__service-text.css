@@ -1,0 +1,14 @@
+.provide__service-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #d4d4d4;
+}
+
+@media screen and (max-width:768px) {
+  .provide__service-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

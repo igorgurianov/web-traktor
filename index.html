@@ -24,17 +24,13 @@
   <header class="header">
 
     <button type="button" class="header__hamburger"></button>
-
     <div class="header__menu">
       <button type="button" class="header__btn-close-hamburger"></button>
       <nav class="nav-bar" id="myHeader">
         <div class="nav-bar__container">
           <ul class="nav-bar__list">
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="#">Главная</a>
-            </li>
-            <li class="nav-bar__item ">
-              <a class="nav-bar__link text_style_navbar" href="./general-repair.html">Капитальный ремонт</a>
+              <a class="nav-bar__link text_style_navbar" href="./machines.html">Наша техника</a>
             </li>
             <li class="nav-bar__item ">
               <a class="nav-bar__link text_style_navbar" href="./services.html">Сервис</a>
@@ -43,7 +39,7 @@
               <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти</a>
             </li>
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar" href="./machines.html">Наша техника</a>
+              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="#">О нас</a>
             </li>
             <li class="nav-bar__item">
               <a class="nav-bar__link text_style_navbar" href="./gallery.html">Галерея работ</a>
@@ -66,16 +62,17 @@
       </div>
     </div>
 
-
-
   </header>
 
   <!-- Navigation section -->
 
 
 
-
   <main class="content">
+
+    <article class="top-banner"></article>
+
+
     <!-- Interview section -->
     <section class="interview section-box">
       <div class="interview__wrapper">
@@ -122,6 +119,125 @@
         </div>
       </div>
 
+    </section>
+
+
+
+    <!-- Review section
+    <section class="review section-box">
+      <div class="section-intro">
+        <h2 class="section-intro__title text_style_title">Причины обращаться к нам</h2>
+        <p class="section-intro__subtitle text_style_bold-paragraph">
+          Высокое качество и скорость выполнения работ. Множество положительных отзывов</p>
+        <div class="section-intro__dash"></div>
+      </div>
+      <div class="review__widget" style="max-width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
+          style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+          src="https://yandex.ru/maps-reviews-widget/226327670406?comments"></iframe><a
+          href="https://yandex.uz/maps/org/muzei_zapovednik_izmailovo/226327670406/" target="_blank"
+          style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Музей-заповедник
+          Измайлово на карте Москвы — Яндекс Карты</a></div>
+    </section>
+      -->
+    <!-- Expert team section -->
+    <section class="provide">
+      <div class="section-intro_type_fullwidth">
+        <h2 class="section-intro__title text_style_title">Мы предоставляем Экспертное Обслуживание</h2>
+        <p class="section-intro__subtitle text_style_bold-paragraph">
+          Мы стремимся заслужить ваше доверие и установить с вами долгосрочные отношения
+        </p>
+        <div class="section-intro__dash"></div>
+      </div>
+      <div class="provide__selector-wrapper">
+        <button data-service-provided="machines" class="provide__selector-btn provide__selector-btn_active"
+          type="button">
+          <img class="provide__selector-img" src="./images/machines.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">Дополнительные услуги</p>
+        </button>
+        <button data-service-provided="advantage" class="provide__selector-btn" type="button">
+          <img class="provide__selector-img" src="./images/general-service.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">Наши преимущества</p>
+        </button>
+        <button data-service-provided="details" class="provide__selector-btn" type="button">
+          <img class="provide__selector-img" src="./images/regular-service.svg" alt="Наша техника">
+          <p class="text_style_paragraph-reset text_style_regular-paragraph">О компании</p>
+        </button>
+        <!---
+          <button class="provide__selector-btn" type="button">
+            <img class="provide__selector-img" src="./images/details.svg" alt="Запчасти">
+            <p class="text_style_paragraph-reset text_style_subtitle">Запчасти</p>
+          </button>
+          -->
+      </div>
+      <div class="provide__info-background">
+        <div class="provide__info-wraper provide__info-wraper_active provide__info-wraper_type_machines">
+          <img class="provide__service-img"
+            src="https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/03/tabs-img01.jpg"
+            alt="">
+          <div class="provide__service-description">
+            <h3 class="text_style_regular-paragraph-grey">Соберем и изготовим трактор специально для Вас:</h3>
+            <ul class="values__list">
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Индивидуальный подход </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">В любом количестве </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Индивидульные приборы в кабину</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
+            </ul>
+            <a class="provide__link text_style_regular-paragraph" href="./machines.html">Узнать подробнее</a>
+          </div>
+        </div>
+
+        <div class="provide__info-wraper provide__info-wraper_type_advantage">
+          <div class="provide__advantage-card">
+            <h3 class="text_style_subtitle-white">Мы делаем это легко</h3>
+            <p class="text_style_regular-paragraph-grey">Получите предложение и закажите услугу онлайн 24/7. Наши
+              механики приедут к вам домой или в офис даже в
+              вечернее время и в выходные дни.</p>
+          </div>
+          <div class="provide__advantage-card">
+            <h3 class="text_style_subtitle-white">Гарантия на заводские детали </h3>
+            <p class="text_style_regular-paragraph-grey">OEM-запчасти — это детали, которые специально изготавливаются
+              производителем автомобиля и поэтому
+              значительно упрощают поиск запчастей для конкретного автомобиля.</p>
+          </div>
+          <div class="provide__advantage-card">
+            <h3 class="text_style_subtitle-white">Честная и прозрачная цена</h3>
+            <p class="text_style_regular-paragraph-grey">Мы предлагаем справедливые и прозрачные цены и заранее
+              оцениваем сотни услуг на тысячах автомобилей.
+              Бронируйте с уверенностью.</p>
+          </div>
+          <div class="provide__advantage-card">
+            <h3 class="text_style_subtitle-white">Качество гарантировано</h3>
+            <p class="text_style_regular-paragraph-grey">Мы работаем только с высококлассными механиками. На все услуги
+              распространяется наша гарантия 12 месяцев
+              / 12 000 миль.</p>
+          </div>
+        </div>
+
+        <div class="provide__info-wraper provide__info-wraper_type_details">
+          <img class="provide__service-img" src="./images/details.jpeg" alt="">
+          <div class="provide__service-description">
+            <h3 class="text_style_title-white">О компании</h3>
+            <p class="provide__service-text">Мы используем новейшее диагностическое оборудование, чтобы
+              гарантировать, что ваш автомобиль
+              отремонтирован или обслужен должным образом и своевременно. Мы являемся членом Professional Auto Service,
+              элитной сети, в которой независимые сервисные центры преследуют общие цели — стать автомобильными
+              сервисными центрами мирового уровня.
+            </p>
+            <ul class="values__list">
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Высокое качество изготовления</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Скорость изготовления и доставки
+              </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Оригинальные детали</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Делаем детали сами у себя на заводе
+              </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
+            </ul>
+            <a class="provide__link text_style_regular-paragraph" href="./spare-parts.html">Узнать подробнее</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- services section -->
@@ -201,100 +317,6 @@
       </div>
     </section>
 
-    <!-- Review section
-    <section class="review section-box">
-      <div class="section-intro">
-        <h2 class="section-intro__title text_style_title">Причины обращаться к нам</h2>
-        <p class="section-intro__subtitle text_style_bold-paragraph">
-          Высокое качество и скорость выполнения работ. Множество положительных отзывов</p>
-        <div class="section-intro__dash"></div>
-      </div>
-      <div class="review__widget" style="max-width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
-          style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
-          src="https://yandex.ru/maps-reviews-widget/226327670406?comments"></iframe><a
-          href="https://yandex.uz/maps/org/muzei_zapovednik_izmailovo/226327670406/" target="_blank"
-          style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Музей-заповедник
-          Измайлово на карте Москвы — Яндекс Карты</a></div>
-    </section>
-      -->
-    <!-- Expert team section -->
-    <section class="provide">
-      <div class="section-intro section-box">
-        <h2 class="section-intro__title text_style_title">Мы предоставляем Экспертное Обслуживание</h2>
-        <p class="section-intro__subtitle text_style_bold-paragraph">
-          Мы стремимся заслужить ваше доверие и установить с вами долгосрочные отношения
-        </p>
-        <div class="section-intro__dash"></div>
-      </div>
-      <div class="provide__selector-wrapper">
-        <button data-service-provided="machines" class="provide__selector-btn provide__selector-btn_active"
-          type="button">
-          <img class="provide__selector-img" src="./images/machines.svg" alt="Наша техника">
-          <p class="text_style_paragraph-reset text_style_regular-paragraph">Наша техника</p>
-        </button>
-        <button data-service-provided="repair" class="provide__selector-btn" type="button">
-          <img class="provide__selector-img" src="./images/general-service.svg" alt="Наша техника">
-          <p class="text_style_paragraph-reset text_style_regular-paragraph">Капитальный ремонт</p>
-        </button>
-        <button data-service-provided="details" class="provide__selector-btn" type="button">
-          <img class="provide__selector-img" src="./images/regular-service.svg" alt="Наша техника">
-          <p class="text_style_paragraph-reset text_style_regular-paragraph">Запчасти</p>
-        </button>
-        <!---
-          <button class="provide__selector-btn" type="button">
-            <img class="provide__selector-img" src="./images/details.svg" alt="Запчасти">
-            <p class="text_style_paragraph-reset text_style_subtitle">Запчасти</p>
-          </button>
-          -->
-      </div>
-      <div class="provide__info-wraper provide__info-wraper_active provide__info-wraper_type_machines">
-        <img class="provide__service-img" src="./images/Our_machine_img.jpeg" alt="">
-        <div class="provide__service-description">
-          <h3 class="provide__service-header">Соберем и изготовим трактор специально для Вас:</h3>
-          <ul class="values__list">
-            <li class="provide__list-item text_style_regular-paragraph">Индивидуальный подход </li>
-            <li class="provide__list-item text_style_regular-paragraph">В любом количестве </li>
-            <li class="provide__list-item text_style_regular-paragraph">Индивидульные приборы в кабину</li>
-            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
-            <li class="provide__list-item text_style_regular-paragraph">Индивидуальный подход </li>
-            <li class="provide__list-item text_style_regular-paragraph">В любом количестве </li>
-            <li class="provide__list-item text_style_regular-paragraph">Индивидульные приборы в кабину</li>
-            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
-          </ul>
-          <a class="provide__link text_style_regular-paragraph" href="./machines.html">Узнать подробнее</a>
-        </div>
-      </div>
-
-      <div class="provide__info-wraper provide__info-wraper_type_repair">
-        <img class="provide__service-img" src="./images/remont.jpeg" alt="">
-        <div class="provide__service-description">
-          <h3 class="provide__service-header">Капитальный ремонт у нас и его преимущества:</h3>
-          <ul class="values__list">
-            <li class="provide__list-item text_style_regular-paragraph">Болшой опыт ремонта</li>
-            <li class="provide__list-item text_style_regular-paragraph">Оригинальные детали</li>
-            <li class="provide__list-item text_style_regular-paragraph">Ремонт любой сложности</li>
-            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
-          </ul>
-          <a class="provide__link text_style_regular-paragraph" href="./general-repair.html">Узнать подробнее</a>
-        </div>
-      </div>
-
-      <div class="provide__info-wraper provide__info-wraper_type_details">
-        <img class="provide__service-img" src="./images/details.jpeg" alt="">
-        <div class="provide__service-description">
-          <h3 class="provide__service-header">Почему стоить покупать запчасти у нас:</h3>
-          <ul class="values__list">
-            <li class="provide__list-item text_style_regular-paragraph">Высокое качество изготовления</li>
-            <li class="provide__list-item text_style_regular-paragraph">Скорость изготовления и доставки</li>
-            <li class="provide__list-item text_style_regular-paragraph">Оригинальные детали</li>
-            <li class="provide__list-item text_style_regular-paragraph">Делаем детали сами у себя на заводе</li>
-            <li class="provide__list-item text_style_regular-paragraph">Гарантия 3 года</li>
-          </ul>
-          <a class="provide__link text_style_regular-paragraph" href="./spare-parts.html">Узнать подробнее</a>
-        </div>
-      </div>
-
-    </section>
 
     <section class="experts section-box">
       <div class="section-intro">

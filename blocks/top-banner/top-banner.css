@@ -1,0 +1,17 @@
+.top-banner {
+
+  display: block;
+  height: 380px;
+  background-size: cover;
+  background-image: url('../../images/header_about-us.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .top-banner {
+    margin: 10px auto;
+    height: 33vh;
+  }
+}

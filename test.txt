@@ -1,3 +1,0 @@
- class="attachment-full size-full" alt="" loading="lazy" srcset="https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/service-tab.png 814w, https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/service-tab-300x122.png 300w, https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/service-tab-768x311.png 768w, https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/service-tab-600x243.png 600w"
-
- Car itself "https://smartdata.tonytemplates.com/car-repair-service-v4/car2/wp-content/uploads/sites/6/2020/04/service-tab.png"

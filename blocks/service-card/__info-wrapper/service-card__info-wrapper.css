@@ -1,0 +1,9 @@
+.service-card__info-wrapper {
+  padding: 13px 20px 15px;
+  background-color: #eeeeee;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}

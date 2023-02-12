@@ -2,8 +2,10 @@
 @import url(../vendor/fonts/fonts.css);
 
 
-/* text_style */
+/*Content*/
+@import url('../blocks/content/content_position_type_sticky.css');
 
+/* text_style */
 @import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph.css');
 @import url('../blocks/text/_style/_bold-paragraph/text_style_bold-paragraph.css');
 @import url('../blocks/text/_style/_title/text_style_title.css');
@@ -13,6 +15,13 @@
 @import url('../blocks/text/_style/_services-btn/text_style_services-btn.css');
 @import url('../blocks/text/_style/_navbar/text_style_navbar.css');
 @import url('../blocks/text/_style/_paragraph-reset/text_style_paragraph-reset.css');
+@import url('../blocks/text/_style/_title/text_style_title-white/text_style_title-white.css');
+@import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-grey.css');
+@import url('../blocks/text/_style/_subtitle/text_style_subtitle-white.css');
+@import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-white-bold.css');
+
+
+@import url('../blocks/text/_style/_bold-price/text_style_bold-price.css');
 
 /* link style */
 
@@ -20,6 +29,7 @@
 
 /* section-box */
 @import url('../blocks/section-box/section-box.css');
+@import url('../blocks/section-intro/_type_fullwidth/section-intro_type_fullwidth.css');
 
 /* header */
 @import url('../blocks/header/header.css');
@@ -47,7 +57,12 @@
 @import url('../blocks/nav-bar/__link/nav-bar__link.css');
 @import url('../blocks/nav-bar/__link/_active/nav-bar__link_active.css');
 
+/* top-banner*/
+@import url('../blocks/top-banner/top-banner.css');
 
+/* page-title */
+@import url('../blocks/page-title/page-title.css');
+@import url('../blocks/page-title/__header/page-title__header.css');
 
 
 /* social media */
@@ -100,7 +115,6 @@
 
 /* Interview section */
 @import url('../blocks/interview/interview.css');
-@import url('../blocks/interview/_position_type_sticky/interview_position_type_sticky.css');
 @import url('../blocks/interview/__history/interview__history.css');
 @import url('../blocks/interview/__photo/interview__photo.css');
 @import url('../blocks/interview/__wrapper/interview__wrapper.css');
@@ -127,7 +141,12 @@
 @import url('../blocks/provide/__link/provide__link.css');
 @import url('../blocks/provide/__info-wraper/provide__info-wraper.css');
 @import url('../blocks/provide/__selector-btn/_active/provide__selector-btn_active.css');
+@import url('../blocks/provide/__info-wraper/_type/provide__info-wraper_type_advantage.css');
+@import url('../blocks/provide/__info-background/provide__info-background.css');
+@import url('../blocks/provide/__service-text/provide__service-text.css');
+@import url('../blocks/provide/__advantage-card/provide__advantage-card.css');
 @import url('../blocks/provide/__info-wraper/_active/provide__info-wraper_active.css');
+
 
 /* Experts */
 @import url('../blocks/experts/experts.css');
@@ -209,3 +228,21 @@
 
 /* Page in development */
 @import url('../blocks/development/development.css');
+
+
+
+/* SPARE PARTS*/
+@import url('../blocks/cards-grid/cards-grid.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__name/card__name.css');
+@import url('../blocks/card/__photo/card__photo.css');
+@import url('../blocks/card/__price/card__price.css');
+
+
+
+/* SERVICES*/
+@import url('../blocks/service-card/__description/service-card__description.css');
+@import url('../blocks/service-card/__img/service-card__img.css');
+@import url('../blocks/service-card/__name/service-card__name.css');
+@import url('../blocks/service-card/service-card.css');
+@import url('../blocks/service-card/__info-wrapper/service-card__info-wrapper.css');

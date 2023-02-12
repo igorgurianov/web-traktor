@@ -1,5 +1,7 @@
 .provide__selector-wrapper {
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 3px;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: space-evenly;
@@ -7,4 +9,10 @@
   max-width: 1170px;
   width: 100%;
   gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .provide__selector-wrapper {
+    gap: 5px;
+  }
 }

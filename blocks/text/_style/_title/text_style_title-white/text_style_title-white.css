@@ -1,0 +1,14 @@
+.text_style_title-white {
+  margin: 0;
+  font-size: 44px;
+  line-height: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+@media screen and (max-width:768px) {
+  .text_style_title-white {
+    font-size: 33px;
+    line-height: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+.provide__info-wraper_type_advantage {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 80px 60px;
+
+  color: #d4d4d4;
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .provide__info-wraper_type_advantage {
+    padding: 30px 15px;
+    grid-template-columns: none;
+    grid-template-rows: repeat(2, minmax(min-content(), 1fr));
+  }
+}

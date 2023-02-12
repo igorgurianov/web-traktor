@@ -1,0 +1,13 @@
+.text_style_bold-price {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+
+}
+
+@media screen and (max-width:768px) {
+  .text_style_bold-price {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

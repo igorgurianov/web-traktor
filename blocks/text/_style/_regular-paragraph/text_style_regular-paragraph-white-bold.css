@@ -1,0 +1,13 @@
+.text_style_regular-paragraph-white-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: white;
+}
+
+@media screen and (max-width:768px) {
+  .text_style_regular-paragraph-white-bold {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

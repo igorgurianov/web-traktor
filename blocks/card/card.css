@@ -1,0 +1,12 @@
+.card {
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center
+}
+
+.card:hover {
+  cursor: pointer;
+  opacity: .7;
+}
