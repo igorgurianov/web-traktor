@@ -1,0 +1,12 @@
+@media screen and (min-width:1023px) {
+  .tractor__properties_position_right::before {
+    content: '';
+    position: absolute;
+    background-size: contain;
+    top: 15px;
+    right: 50px;
+    height: 24px;
+    width: 290px;
+    background-image: url('../../../../../images/dot-svgrepo-com.svg');
+  }
+}

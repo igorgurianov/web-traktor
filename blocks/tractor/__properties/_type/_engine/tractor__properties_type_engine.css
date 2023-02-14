@@ -1,0 +1,21 @@
+@media screen and (min-width:769px) {
+  .tractor__properties_type_engine {
+    top: 0%;
+    left: 2%;
+  }
+}
+
+
+.tractor__properties_type_engine::after {
+
+  content: '';
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  background-size: cover;
+  background-image: url('../../../../../images/engine-motor-svgrepo-com.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33px;
+  height: 33px;
+}

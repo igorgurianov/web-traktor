@@ -1,0 +1,13 @@
+.tractor__links-wrapper {
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 425px;
+}
+
+@media screen and (max-width:768px) {
+  .tractor__links-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

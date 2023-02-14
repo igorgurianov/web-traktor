@@ -1,0 +1,24 @@
+.tractor__properties {
+  padding: 45px 10px 5px;
+  margin: 0;
+  position: absolute;
+  max-width: 340px;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .tractor__properties {
+    max-width: 240px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tractor__properties {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    background-color: #f0f0f0;
+  }
+}

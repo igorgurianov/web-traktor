@@ -1,0 +1,27 @@
+.tractor__properties_type_gearbox:after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  background-image: url('../../../../../images/gearshift-shift-svgrepo-com.svg');
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+}
+
+@media screen and (min-width:769px) {
+  .tractor__properties_type_gearbox {
+    top: 65%;
+    right: 2%;
+    text-align: right;
+  }
+
+  .tractor__properties_type_gearbox:after {
+    right: 10px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .tractor__properties_type_gearbox:after {
+    left: 10px;
+  }
+}

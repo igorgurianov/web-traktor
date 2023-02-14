@@ -1,0 +1,25 @@
+@media screen and (min-width:769px) {
+  .tractor__properties_type_electric {
+    top: 0%;
+    right: 2%;
+    text-align: right;
+  }
+}
+
+.tractor__properties_type_electric::after {
+  content: '';
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  background-size: cover;
+  background-image: url('../../../../../images/battery-svgrepo-com.svg');
+  background-size: contain;
+  width: 33px;
+  height: 33px;
+}
+
+@media screen and (max-width:768px) {
+  .tractor__properties_type_electric::after {
+    left: 10px;
+  }
+}

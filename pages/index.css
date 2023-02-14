@@ -92,6 +92,26 @@
 @import url('../blocks/services/__wrapper/services__wrapper.css');
 @import url('../blocks/services/__interactive-pic.css/services__interactive-pic.css');
 
+
+/* Tractor our machines*/
+@import url('../blocks/our-machines/our-machines.css');
+@import url('../blocks/tractor/tractor.css');
+@import url('../blocks/tractor/__img/tractor__img.css');
+
+@import url('../blocks/tractor/__properties/_type/_cabin/tractor__properties_type_cabin.css');
+@import url('../blocks/tractor/__properties/_type/_chassis/tractor__properties_type_chassis.css');
+@import url('../blocks/tractor/__properties/_type/_electric/tractor__properties_type_electric.css');
+@import url('../blocks/tractor/__properties/_type/_engine/tractor__properties_type_engine.css');
+@import url('../blocks/tractor/__properties/_type/_otval/tractor__properties_type_otval.css');
+@import url('../blocks/tractor/__properties/_type/_gearbox/tractor__properties_type_gearbox.css');
+@import url('../blocks/tractor/__prop-text/tractor__prop-text.css');
+@import url('../blocks/tractor/__properties/tractor__properties.css');
+@import url('../blocks/tractor/__properties/_position/_left/tractor__properties_position_left.css');
+@import url('../blocks/tractor/__properties/_position/_right/tractor__properties_position_right.css');
+@import url('../blocks/tractor/__links-wrapper/tractor__links-wrapper.css');
+@import url('../blocks/tractor/__link/tractor__link.css');
+
+
 /* Caption */
 @import url(../blocks/caption/caption.css);
 @import url(../blocks/caption/__pic/caption__pic.css);
@@ -105,12 +125,10 @@
 @import url(../blocks/vehicle-container/__icon/__oil-lube/icon__oil-lube.css);
 @import url(../blocks/vehicle-container/__icon/__tires/icon__tires.css);
 @import url(../blocks/vehicle-container/__icon/__transmission/icon__transmission.css);
-
-
 @import url(../blocks/vehicle-container/vehicle-container.css);
 @import url(../blocks/vehicle-container/__icon/vehicle-container__icon.css);
-
 @import url(../blocks/vehicle-container/__icon/_active/vehicle-container__icon_active.css);
+@import url('../blocks/vehicle-container/__link/vehicle-container__link.css');
 
 
 /* Interview section */

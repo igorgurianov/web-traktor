@@ -1,0 +1,23 @@
+.tractor__link {
+  padding: 18px 27px;
+  text-decoration: none;
+  color: white;
+  background-color: #777;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  display: block;
+}
+
+.tractor__link:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #777;
+  border: 1px solid #777;
+}
+
+
+@media screen and (max-width:768px) {
+  .tractor__link {
+    text-align: center;
+  }
+}
