@@ -8,19 +8,15 @@
 .nav-bar__container::before {
   content: '';
   position: absolute;
-  left: 40px;
-  top: -5px;
-  -webkit-mask-size: 100%;
-  mask-size: 100%;
-  height: 75px;
-  width: 75px;
-  mask-position: center;
-  -webkit-mask-position: center;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  background-color: black;
-  -webkit-mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
-  mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+  left: 30px;
+  top: 0;
+
+  width: 150px;
+  height: 73px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../../../images/frame-logo-9.svg');
 }
 
 @media screen and (max-width: 768px) {
@@ -37,4 +33,21 @@
 }
 
 /*
+.nav-bar__container::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: -5px;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  height: 75px;
+  width: 75px;
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  background-color: black;
+  -webkit-mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+  mask-image: url('../../../images/logo-tractor-svgrepo-com.svg');
+}
 */
