@@ -1,0 +1,13 @@
+.text_style_regular-paragraph-dark {
+  margin: 0;
+  font-size: 16px;
+  line-height: 25px;
+  color: #7e7e7e;
+}
+
+@media screen and (max-width:768px) {
+  .text_style_regular-paragraph-dark {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

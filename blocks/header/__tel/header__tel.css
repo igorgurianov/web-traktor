@@ -1,6 +1,6 @@
 .header__tel {
-  padding-left: 20px;
-  color: white;
+
+  color: inherit;
   display: block;
   padding-left: 40px;
   position: relative;

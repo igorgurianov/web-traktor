@@ -1,0 +1,5 @@
+.service-info__photo {
+  grid-area: photo;
+  width: 100%;
+  border-radius: 1%;
+}

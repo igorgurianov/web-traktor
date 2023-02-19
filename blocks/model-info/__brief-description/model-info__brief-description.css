@@ -1,0 +1,7 @@
+.model-info__brief-description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}

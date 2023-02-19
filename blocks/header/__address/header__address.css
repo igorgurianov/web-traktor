@@ -1,5 +1,5 @@
 .header__address {
-  color: white;
+  color: inherit;
   display: block;
   padding-left: 40px;
   position: relative;

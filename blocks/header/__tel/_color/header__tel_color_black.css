@@ -1,0 +1,4 @@
+.header__tel_color_black::before {
+  background-color: #5e5e5e;
+  left: 5px;
+}

@@ -19,6 +19,7 @@
 @import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-grey.css');
 @import url('../blocks/text/_style/_subtitle/text_style_subtitle-white.css');
 @import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-white-bold.css');
+@import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-dark.css');
 
 
 @import url('../blocks/text/_style/_bold-price/text_style_bold-price.css');
@@ -47,6 +48,10 @@
 @import url('../blocks/header/__topline/header__topline.css');
 @import url('../blocks/header/btn-close-hamburger/header__btn-close-hamburger.css');
 @import url('../blocks/nav-bar/_position-type_sticky/nav-bar_position-type_sticky.css');
+@import url('../blocks/header/__hours/header__hours.css');
+@import url('../blocks/header/__hours/_color/header__hours_color_black.css');
+@import url('../blocks/header/__tel/_color/header__tel_color_black.css');
+@import url('../blocks/header/__address/_color/header__address_color_black.css');
 
 
 /* Navigation bar */
@@ -251,6 +256,7 @@
 
 /* SPARE PARTS*/
 @import url('../blocks/cards-grid/cards-grid.css');
+@import url('../blocks/cards-grid/__link/cards-grid__link.css');
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__name/card__name.css');
 @import url('../blocks/card/__photo/card__photo.css');
@@ -264,3 +270,29 @@
 @import url('../blocks/service-card/__name/service-card__name.css');
 @import url('../blocks/service-card/service-card.css');
 @import url('../blocks/service-card/__info-wrapper/service-card__info-wrapper.css');
+
+
+/* MODEL INFO*/
+@import url('../blocks/model-info/model-info.css');
+@import url('../blocks/model-info/__brief-description/model-info__brief-description.css');
+@import url('../blocks/model-info/__display/model-info__display.css');
+@import url('../blocks/model-info/__menu/model-info__menu.css');
+@import url('../blocks/model-info/__photo/model-info__photo.css');
+@import url('../blocks/model-info/__model-title/model-info__model-title.css');
+@import url('../blocks/model-info/__model-descr/model-info__model-descr.css');
+@import url('../blocks/model-info/__block/model-info__block.css');
+@import url('../blocks/model-info/__block/_active/model-info__block_active.css');
+
+
+/* SERVICE INFO*/
+
+@import url('../blocks/service-info/service-info.css');
+@import url('../blocks/service-info/__description/service-info__description.css');
+@import url('../blocks/service-info/__nav/service-info__nav.css');
+@import url('../blocks/service-info/__photo/service-info__photo.css');
+
+/* ASIDE MENU*/
+@import url('../blocks/aside-menu/aside-menu.css');
+@import url('../blocks/aside-menu/__block/aside-menu__block.css');
+@import url('../blocks/aside-menu/__link/aside-menu__link.css');
+@import url('../blocks/aside-menu/__item/aside-menu__item.css');

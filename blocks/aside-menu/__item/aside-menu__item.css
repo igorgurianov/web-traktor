@@ -1,0 +1,15 @@
+.aside-menu__item {
+  display: block;
+  padding: 20px 10px 20px 35px;
+  color: #5e5e5e;
+  border-bottom: 1px solid #f7f7f7;
+  border-left: 3px solid transparent;
+}
+
+
+.aside-menu__item:hover {
+  color: black;
+  cursor: pointer;
+  border-left: 3px solid #ffc513;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

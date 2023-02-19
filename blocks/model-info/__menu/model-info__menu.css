@@ -1,0 +1,7 @@
+.model-info__menu {
+  grid-area: menu;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,6 @@
+.service-info__description {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  gap: 20px
+}

@@ -3,7 +3,9 @@
   top: 0;
   z-index: 99;
   min-height: 50px;
-  background-color: #777;
+  background-color: #3b3b3b;
+
+
   margin: 0 auto;
 
   width: 100%;
@@ -26,6 +28,23 @@
     width: 50px;
     content: '';
     position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-image: url('../../images/frame-logo-9.svg');
+  }
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .header::before {
+    top: -4px;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    content: '';
+    position: absolute;
     -webkit-mask-size: 100%;
     mask-size: 100%;
     mask-position: center;
@@ -37,3 +56,4 @@
     mask-image: url('../../images/logo-tractor-svgrepo-com.svg');
   }
 }
+*/
