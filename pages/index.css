@@ -296,3 +296,10 @@
 @import url('../blocks/aside-menu/__block/aside-menu__block.css');
 @import url('../blocks/aside-menu/__link/aside-menu__link.css');
 @import url('../blocks/aside-menu/__item/aside-menu__item.css');
+@import url('../blocks/aside-menu/__item/_active/aside-menu__item_active.css');
+@import url('../blocks/aside-menu/__subtitle/aside-menu__subtitle.css');
+
+
+/* GALLERY*/
+@import url('../blocks/gallery/gallery.css');
+@import url('../blocks/gallery/__grid/gallery__grid.css');

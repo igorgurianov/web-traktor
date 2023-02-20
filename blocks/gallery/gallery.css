@@ -1,0 +1,18 @@
+.gallery {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .gallery {
+    padding: 20px 20px;
+  }
+}

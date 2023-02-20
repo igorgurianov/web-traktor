@@ -8,6 +8,7 @@
   <title>Web-tractor</title>
   <link rel="icon" type="image/x-icon" href="./images/favicon-tractor-svgrepo-com.svg">
   <link rel="stylesheet" href="./pages/index.css" />
+  <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
 </head>
 
 <body class="page">
@@ -65,17 +66,43 @@
       </div>
     </div>
 
-
-
   </header>
 
-  <main>
+  <main class="content">
 
     <article class="page-title">
       <h2 class="page-title__header text_style_title-white">Галерея работ</h2>
     </article>
 
-    <h1 class="development">Страница "Галерея работ в разработке"</h1>
+    <section class="gallery section-box">
+      <div class="gallery__grid">
+        <div class="gallery__item">
+          <img-comparison-slider>
+            <img slot="first" width="100%" src="./images/photo-dt-75-5.jpeg" />
+            <img slot="second" width="100%" src="./images/photo-dt-75-8.jpeg" />
+          </img-comparison-slider>
+          <h3 class="gallery__label">Капитальный ремонт ВЗГМ-90</h3>
+        </div>
+        <div class="gallery__item">
+          <img-comparison-slider>
+            <img slot="first" width="100%" src="./images/photo-dt-75-5.jpeg" />
+            <img slot="second" width="100%" src="./images/photo-dt-75-8.jpeg" />
+          </img-comparison-slider>
+          <h3 class="gallery__label">Текущий ремонт ДТ-75</h3>
+        </div>
+        <div class="gallery__item">
+          <img-comparison-slider>
+            <img slot="first" width="100%" src="./images/photo-dt-75-5.jpeg" />
+            <img slot="second" width="100%" src="./images/photo-dt-75-8.jpeg" />
+          </img-comparison-slider>
+          <h3 class="gallery__label">Замена двигателя на ДТ-75</h3>
+        </div>
+      </div>
+
+    </section>
+
+
+
 
   </main>
 
@@ -170,6 +197,7 @@
     </div>
   </footer>
   <script src="./script-js/preloader.js"> </script>
+  <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
   <script src="./script-js/sticky-menu.js"></script>
   <script src="./script-js/burger-menu.js"></script>
 </body>

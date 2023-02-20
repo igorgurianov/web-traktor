@@ -1,0 +1,6 @@
+.aside-menu__item_active {
+  color: black;
+  cursor: pointer;
+  border-left: 3px solid #ffc513;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
