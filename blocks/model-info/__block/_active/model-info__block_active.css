@@ -1,3 +1,5 @@
 .model-info__block_active {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

@@ -1,7 +1,10 @@
 .text_style_bold-paragraph {
+  margin: 0;
+  padding: 0;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
+  color: #292929;
 }
 
 @media screen and (max-width:768px) {

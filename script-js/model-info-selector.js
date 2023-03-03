@@ -1,7 +1,7 @@
-const btn = document.querySelectorAll('.model-info__btn')
+const btn = document.querySelectorAll('.aside-menu__btn')
 const elementForm = document.querySelector('.model-info__paragraph')
 const elementContainer = document.querySelector('.model-info__display')
-const btnContainer = document.querySelector('.swiper-wrapper')
+const btnContainer = document.querySelector('.aside-menu__block')
 console.log(btnContainer)
 
 
@@ -14,20 +14,16 @@ const modelInfo = {
 
 function renderInfo(evt) {
   const hideBlock = elementContainer.querySelector('.model-info__block_active')
-  const prevActiveBtn = btnContainer.querySelector('.nav-tabs__btn_active')
-  const activeBtn = evt.target.closest('.nav-tabs__btn');
-  console.log(prevActiveBtn)
+  const prevActiveBtn = btnContainer.querySelector('.aside-menu__item_active')
+  const activeBtn = evt.target.closest('.aside-menu__btn');
+
 
   hideBlock.classList.remove('model-info__block_active');
-  prevActiveBtn.classList.remove('nav-tabs__btn_active');
+  prevActiveBtn.classList.remove('aside-menu__item_active');
 
+  activeBtn.classList.add('aside-menu__item_active')
 
-  console.log(activeBtn)
-
-  activeBtn.classList.add('nav-tabs__btn_active')
-
-  const infoType = evt.target.closest('.nav-tabs__btn').dataset.modelInfo
-
+  const infoType = evt.target.dataset.modelInfo
 
   const activeBlock = elementContainer.querySelector(`.model-info__block_text_${infoType}`);
 

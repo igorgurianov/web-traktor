@@ -1,0 +1,8 @@
+.connect-us__address {
+  position: relative;
+}
+
+.connect-us__address::before {
+  -webkit-mask-image: url('../../../images/location-3-svgrepo-com.svg');
+  mask-image: url('../../../images/location-3-svgrepo-com.svg');
+}

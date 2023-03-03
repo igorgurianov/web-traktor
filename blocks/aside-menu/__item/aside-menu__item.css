@@ -1,11 +1,10 @@
 .aside-menu__item {
   display: block;
-  padding: 20px 10px 20px 45px;
   color: #5e5e5e;
+  border: none;
   border-bottom: 1px solid #f7f7f7;
   border-left: 3px solid transparent;
 }
-
 
 .aside-menu__item:hover {
   color: black;

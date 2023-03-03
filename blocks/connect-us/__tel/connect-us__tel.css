@@ -1,0 +1,8 @@
+.connect-us__tel {
+  position: relative;
+}
+
+.connect-us__tel::before {
+  -webkit-mask-image: url('../../../images/call-cell-communication-phone-ring-talk.svg');
+  mask-image: url('../../../images/call-cell-communication-phone-ring-talk.svg');
+}

@@ -20,6 +20,10 @@
 @import url('../blocks/text/_style/_subtitle/text_style_subtitle-white.css');
 @import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-white-bold.css');
 @import url('../blocks/text/_style/_regular-paragraph/text_style_regular-paragraph-dark.css');
+@import url('../blocks/text/_style/_title/text_style_title-white/text_style_subtittle-white.css');
+@import url('../blocks/text/_style/_aside-subtitle/text_style_aside-subtitle.css');
+@import url('../blocks/text/_style/_aside-title/text_style_aside-title.css');
+@import url('../blocks/text/_style/_model-info-paragraph/text_style_model-info-paragraph.css');
 
 
 @import url('../blocks/text/_style/_bold-price/text_style_bold-price.css');
@@ -52,6 +56,7 @@
 @import url('../blocks/header/__hours/_color/header__hours_color_black.css');
 @import url('../blocks/header/__tel/_color/header__tel_color_black.css');
 @import url('../blocks/header/__address/_color/header__address_color_black.css');
+@import url('../blocks/header/__icon/header__icon.css');
 
 
 /* Navigation bar */
@@ -68,6 +73,10 @@
 /* page-title */
 @import url('../blocks/page-title/page-title.css');
 @import url('../blocks/page-title/__header/page-title__header.css');
+@import url('../blocks/page-title/__path-container/page-title__path-container.css');
+@import url('../blocks/page-title/__directory/page-title__directory.css');
+@import url('../blocks/page-title/__link/page-title__link.css');
+@import url('../blocks/page-title/__separator/page-title__separator.css');
 
 
 /* social media */
@@ -143,6 +152,9 @@
 @import url('../blocks/interview/__wrapper/interview__wrapper.css');
 @import url('../blocks/interview/__title/interview__title.css');
 @import url('../blocks/interview/__paragraph/interview__paragraph.css');
+@import url('../blocks/interview/__owner/interview__owner.css');
+@import url('../blocks/interview/__owner-photo/interview__owner-photo.css');
+@import url('../blocks/interview/__owner-sign/interview__owner-sign.css');
 
 /* values */
 @import url('../blocks/values/values.css');
@@ -290,6 +302,10 @@
 @import url('../blocks/service-info/__description/service-info__description.css');
 @import url('../blocks/service-info/__nav/service-info__nav.css');
 @import url('../blocks/service-info/__photo/service-info__photo.css');
+@import url('../blocks/service-info/__list-icon/service-info__list-icon.css');
+@import url('../blocks/service-info/__first/service-info__first.css');
+@import url('../blocks/service-info/__second/service-info__second.css');
+@import url('../blocks/service-info/__third/service-info__third.css');
 
 /* ASIDE MENU*/
 @import url('../blocks/aside-menu/aside-menu.css');
@@ -298,8 +314,18 @@
 @import url('../blocks/aside-menu/__item/aside-menu__item.css');
 @import url('../blocks/aside-menu/__item/_active/aside-menu__item_active.css');
 @import url('../blocks/aside-menu/__subtitle/aside-menu__subtitle.css');
+@import url('../blocks/aside-menu/__btn/aside-menu__btn.css');
+@import url('../blocks/aside-menu/__list/aside-menu__list.css');
 
 
 /* GALLERY*/
 @import url('../blocks/gallery/gallery.css');
 @import url('../blocks/gallery/__grid/gallery__grid.css');
+
+
+/*CONNECT US */
+@import url('../blocks/connect-us/__hours/connect-us__hours.css');
+@import url('../blocks/connect-us/__address/connect-us__address.css');
+@import url('../blocks/connect-us/__tel/connect-us__tel.css');
+@import url('../blocks/connect-us/__mail/connect-us__mail.css');
+@import url('../blocks/connect-us/__icon/connect-us__icon.css');

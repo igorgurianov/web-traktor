@@ -1,10 +1,11 @@
 .model-info {
   display: grid;
   grid-template-areas:
-    "photo description"
-    "menu menu"
-    "display display";
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3%;
+    "photo photo description description"
+    "display display display menu";
+
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 50px;
+  column-gap: 3%;
 
 }

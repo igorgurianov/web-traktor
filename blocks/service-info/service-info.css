@@ -1,8 +1,8 @@
 .service-info {
   display: grid;
   grid-template-areas:
-    "photo nav"
-    "description nav";
+    "photo menu"
+    "description menu";
 
-  gap: 3%;
+  gap: 50px;
 }

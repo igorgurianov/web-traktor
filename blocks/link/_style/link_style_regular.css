@@ -2,8 +2,6 @@
   text-decoration: none;
 }
 
-
 .link_style_regular:hover {
   cursor: pointer;
-  opacity: .6;
 }

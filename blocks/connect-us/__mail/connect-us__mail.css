@@ -1,0 +1,8 @@
+.connect-us__mail {
+  position: relative;
+}
+
+.connect-us__mail::before {
+  -webkit-mask-image: url('../../../images/mail-svgrepo-com.svg');
+  mask-image: url('../../../images/mail-svgrepo-com.svg');
+}

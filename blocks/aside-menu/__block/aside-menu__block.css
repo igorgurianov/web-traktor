@@ -1,12 +1,4 @@
 .aside-menu__block {
   background-color: #ffffff;
   box-shadow: 0 6px 35px rgb(0 0 0 / 7%);
-
-  margin: 0;
-  padding: 0;
-
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  text-decoration: none;
 }

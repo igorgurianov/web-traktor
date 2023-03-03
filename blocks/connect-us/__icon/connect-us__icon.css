@@ -1,0 +1,17 @@
+.connect-us__icon::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 20px;
+  width: 25px;
+  height: 25px;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  background-color: #ffc513;
+}
+
+.connect-us__icon:hover::before {
+  background-color: #ffc513;
+}

@@ -1,7 +1,9 @@
+/*
 const swiperModel = new Swiper('.swiper-model', {
 
   // Optional parameters
   grabCoursor: true,
+  //direction: 'vertical',
 
   // Responsive breakpoints
   breakpoints: {
@@ -47,3 +49,4 @@ const swiperModel = new Swiper('.swiper-model', {
 );
 
 console.log(swiperModel)
+*/

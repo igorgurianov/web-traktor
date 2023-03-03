@@ -1,0 +1,8 @@
+.connect-us__hours {
+  position: relative;
+}
+
+.connect-us__hours::before {
+  -webkit-mask-image: url('../../../../images/clock-svgrepo-com.svg');
+  mask-image: url('../../../../images/clock-svgrepo-com.svg');
+}

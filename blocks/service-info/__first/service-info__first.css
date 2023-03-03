@@ -1,0 +1,4 @@
+  .service-info__first::before {
+    -webkit-mask-image: url('../../../images/number-1-circle-svgrepo-com.svg');
+    mask-image: url('../../../images/number-1-circle-svgrepo-com.svg');
+  }

@@ -1,6 +1,8 @@
 .text_style_regular-paragraph {
+  margin: 0;
   font-size: 16px;
   line-height: 25px;
+  color: #292929;
 }
 
 @media screen and (max-width:768px) {
