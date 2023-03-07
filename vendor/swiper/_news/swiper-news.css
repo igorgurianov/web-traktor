@@ -1,0 +1,18 @@
+.swiper-news {
+  padding: 60px 0 60px;
+  margin-top: -60px;
+}
+
+.news-swiper__btn-prev {
+  position: absolute;
+  top: 25px;
+  color: #727272;
+  left: auto;
+  right: 70px;
+}
+
+.news-swiper__btn-next {
+  top: 25px;
+  right: 0;
+  color: #727272;
+}

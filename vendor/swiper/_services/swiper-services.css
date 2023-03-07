@@ -2,12 +2,12 @@
   padding-bottom: 3px;
 }
 
-.swiper-button-next {
+.swiper-button-next_services {
   right: 0;
   color: #ffc513;
 }
 
-.swiper-button-prev {
+.swiper-button-prev_services {
   color: #ffc513;
   left: 0;
 }

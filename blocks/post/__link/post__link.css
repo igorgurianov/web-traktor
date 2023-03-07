@@ -1,0 +1,24 @@
+.post__link {
+  padding: 18px 27px;
+  text-decoration: none;
+  color: white;
+  background-color: #777;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  max-width: 150px;
+  text-align: center;
+}
+
+.post__link:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #777;
+  border: 1px solid #777;
+}
+
+
+@media screen and (max-width:768px) {
+  .post__link {
+    text-align: center;
+  }
+}

@@ -1,0 +1,15 @@
+.text_style_title_gray {
+  margin: 0;
+  padding: 0;
+  font-size: 180px;
+  line-height: 1;
+  font-weight: 700;
+  color: #f7f7f7;
+}
+
+@media screen and (max-width:768px) {
+  .text_style_title_gray {
+    font-size: 100px;
+    line-height: 1;
+  }
+}

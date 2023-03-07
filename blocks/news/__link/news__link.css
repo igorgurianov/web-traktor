@@ -1,0 +1,11 @@
+.news__link {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5e5e5e;
+}
+
+.news__link:hover {
+  color: inherit;
+}

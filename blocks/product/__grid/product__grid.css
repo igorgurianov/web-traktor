@@ -1,0 +1,10 @@
+.product__grid {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  grid-template-areas:
+    "photo nav"
+    "description nav";
+
+  column-gap: 50px;
+  justify-content: space-between
+}

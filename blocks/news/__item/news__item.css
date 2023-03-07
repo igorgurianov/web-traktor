@@ -1,1 +1,4 @@
-.news__item {}
+.news__item {
+  border-bottom: 1px solid #eef0f1;
+  padding-bottom: 24px;
+}

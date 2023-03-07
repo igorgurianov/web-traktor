@@ -24,6 +24,7 @@
 @import url('../blocks/text/_style/_aside-subtitle/text_style_aside-subtitle.css');
 @import url('../blocks/text/_style/_aside-title/text_style_aside-title.css');
 @import url('../blocks/text/_style/_model-info-paragraph/text_style_model-info-paragraph.css');
+@import url('../blocks/text/_style/_title_gray/text_style_title_gray.css');
 
 
 @import url('../blocks/text/_style/_bold-price/text_style_bold-price.css');
@@ -213,6 +214,14 @@
 @import url('../blocks/news/__carousel/news__carousel.css');
 @import url('../blocks/news/__item/news__item.css');
 @import url('../blocks/news/__paragraph/news__paragraph.css');
+@import url('../blocks/news/__img/news__img.css');
+@import url('../blocks/news/__slide-link/news__slide-link.css');
+@import url('../blocks/news/__figure/news__figure.css');
+@import url('../blocks/news/__caption/news__caption.css');
+@import url('../blocks/news/__date/news__date.css');
+@import url('../blocks/news/__subtitle/new__subtitle.css');
+@import url('../blocks/news/__link/news__link.css');
+@import url('../blocks/news/__blog-subtitle/news__blog-subtitle.css');
 
 
 /* find-us */
@@ -260,6 +269,7 @@
 @import url('../vendor/swiper/__pagination/swiper__pagination.css');
 @import url('../vendor/swiper/_experts/swiper-experts.css');
 @import url('../vendor/swiper/_services/swiper-services.css');
+@import url('../vendor/swiper/_news/swiper-news.css');
 
 /* Page in development */
 @import url('../blocks/development/development.css');
@@ -273,6 +283,7 @@
 @import url('../blocks/card/__name/card__name.css');
 @import url('../blocks/card/__photo/card__photo.css');
 @import url('../blocks/card/__price/card__price.css');
+@import url('../blocks/card/__link/card__link.css');
 
 
 
@@ -329,3 +340,18 @@
 @import url('../blocks/connect-us/__tel/connect-us__tel.css');
 @import url('../blocks/connect-us/__mail/connect-us__mail.css');
 @import url('../blocks/connect-us/__icon/connect-us__icon.css');
+
+
+/* POST */
+@import url('../blocks/post/__link/post__link.css');
+@import url('../blocks/news/__blog-post/news__blog-post.css');
+
+/* POST-INFO*/
+@import url('../blocks/post-info/post-info.css');
+@import url('../blocks/post-info/__author-img/post-info__author-img.css');
+@import url('../blocks/post-info/__author-name/post-info__author-name.css');
+
+/* PRODUCT */
+@import url('../blocks/product/__description/product__description.css');
+@import url('../blocks/product/__grid/product__grid.css');
+@import url('../blocks/product/__img/product__img.css');
