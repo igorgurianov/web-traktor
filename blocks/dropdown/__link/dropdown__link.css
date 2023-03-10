@@ -1,0 +1,16 @@
+.dropdown__link {
+  display: inline-block;
+  padding: 25px;
+  min-width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  font-size: 15px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown__link:hover {
+  color: #ffc513;
+  cursor: pointer;
+}

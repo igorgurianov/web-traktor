@@ -22,7 +22,6 @@
   <!--Header-->
 
   <header class="header">
-
     <button type="button" class="header__hamburger"></button>
     <div class="header__menu">
       <button type="button" class="header__btn-close-hamburger"></button>
@@ -30,16 +29,31 @@
         <div class="nav-bar__container">
           <ul class="nav-bar__list">
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar" href="./machines.html">Наша техника</a>
+              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="./home.html">Главная
+              </a>
             </li>
-            <li class="nav-bar__item ">
-              <a class="nav-bar__link text_style_navbar" href="./services.html">Сервис</a>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./machines.html">Наша техника
+              </a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./VZGM-90.html">Трактор&nbsp;ВЗГМ-90</a>
+                <a class="dropdown__link" href="./DT-75.html">Трактор&nbsp;ДТ-75</a>
+              </div>
+            </li>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./services.html">Сервис</a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./Preventive-Maintenance.html">Техническое&nbsp;обслуживание</a>
+                <a class="dropdown__link" href="./general-maintenance.html">Капитальный&nbsp;ремонт</a>
+                <a class="dropdown__link" href="./current-maintenance.html">Профилактическое&nbsp;обслуживание</a>
+              </div>
             </li>
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти</a>
+              <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти
+              </a>
             </li>
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="#">О нас</a>
+              <a class="nav-bar__link text_style_navbar" href="./about.html">О нас</a>
             </li>
             <li class="nav-bar__item">
               <a class="nav-bar__link text_style_navbar" href="./gallery.html">Галерея работ</a>
@@ -57,75 +71,60 @@
           <a class="header__tel header__icon text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7
             (495) 577 2710</a>
           <a class="header__address header__icon text_style_bold-paragraph link_style_regular"
-            href="https://yandex.uz/maps/-/CCUrB8SfgC">Волгоград, ул Переяславская д.20Б</a>
+            href="https://yandex.ru/maps/-/CCUKzMcXWC" target="_blank">Волгоград, ул Переяславская д.20Б</a>
         </div>
         <div class="social-media">
-          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537"></a>
-          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor"></a>
+          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537" target="_blank"></a>
+          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor" target="_blank"></a>
         </div>
       </div>
     </div>
-
   </header>
-
-  <!-- Navigation section -->
-
-
 
   <main class="content">
 
-    <article class="top-banner"></article>
+    <section class="main-carousel">
+      <!-- Slider main container -->
+      <div class="swiper swiper-main">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="main-carousel__slide">
+              <div class="main-carousel__content">
+                <h2 class="main-carousel__title">Наша техника</h2>
+                <h3 class="main-carousel__subtitle">Надежные трактора которые мы изготавливаем сами</h3>
+                <a class="main-carousel__link" href="./machines.html" target="_blank">Узнать больше</a>
+              </div>
+              <img class="main-carousel__img" src="./images/main-slide-our-tractor.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-carousel__slide">
+              <div class="main-carousel__content">
+                <h2 class="main-carousel__title">Сервис</h2>
+                <h3 class="main-carousel__subtitle">Мы обслуживаем все виды сельскохозяйственной техники</h3>
+                <a class="main-carousel__link" href="./services.html" target="_blank">Узнать больше</a>
+              </div>
+              <img class="main-carousel__img" src="./images/main-slide-our-service.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="main-carousel__slide">
+              <div class="main-carousel__content">
+                <h2 class="main-carousel__title">Запчасти</h2>
+                <h3 class="main-carousel__subtitle">У нас вы можете приобрети запчасти нашего производства</h3>
+                <a class="main-carousel__link" href="./spare-parts.html" target="_blank">Узнать больше</a>
+              </div>
+              <img class="main-carousel__img" src="./images/main-slide-spare-part.jpg" alt="">
+            </div>
 
-
-    <!-- Interview section -->
-    <section class="interview section-box">
-      <div class="interview__wrapper">
-        <img class="interview__photo" src="./images/founder-img.png" alt="Фото основателей компании">
-        <div class="interview__history">
-          <h2 class="interview__title text_style_title">Как все начиналось</h2>
-          <h2 class="interview__title text_style_title">История от основателей</h2>
-          <div class="section-intro__dash"></div>
-          <p class="interview__paragraph text_style_regular-paragraph">Мой отец занимался выращиванием бахчевых культур,
-            я стал ему помогать,
-            у нас были свои ДТ-75, К 700, сеялки, культиваторы, опрыскиватели и тд.</p>
-          <p class="interview__paragraph text_style_regular-paragraph">
-            Эксплуатация техники неизбежно приводила к ее поломкам, необходимости быстрого ремонта и технического
-            обслуживания.
-            С техникой я знаком уже более 25 лет и, до настоящего момента, участвую в ремонте и могу устранить любую
-            неисправность.
-            Свои профессиональные навыки, знания и опыт я смог реализовать, основав собственный бизнес.</p>
-          <div class="interview__owner">
-            <img class="interview__owner-photo" src="./images/employee4.jpeg" alt="">
-            <img class="interview__owner-sign" src="./images/signature.svg" alt="">
           </div>
         </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper-main__button-prev"></div>
+        <div class="swiper-button-next swiper-main__button-next"></div>
       </div>
-      <div class="values">
-        <div class="values__item">
-          <h3 class="values__title text_style_subtitle">Наша миссия</h3>
-          <p class="values__paragraph text_style_bold-paragraph">
-            Наша миссия состоит в том, чтобы обслуживать наших клиентов и всегда обеспечивать высочайший уровень
-            обслуживания клиентов; развивать нашу команду и стремиться к постоянному совершенствованию.
-          </p>
-        </div>
-        <div class="values__item">
-          <h3 class="values__title text_style_subtitle">Наше видение</h3>
-          <p class="values__paragraph text_style_bold-paragraph">
-            Стать выдающимся лидером в области производства и ремонта техники. Мы создаём
-            воодушевление, реализуя новаторские идеи, решая проблемы и превосходя ожидания наших клиентов.
-          </p>
-        </div>
-        <div class="values__item">
-          <h3 class="values__title text_style_subtitle">Главные ценности</h3>
-          <ul class="values__list">
-            <li class="values__list-item ticked-list text_style_bold-paragraph">Командная работа через доверие и
-              уважение.</li>
-            <li class="values__list-item ticked-list text_style_bold-paragraph">Приверженность энтузиазму клиентов.</li>
-            <li class="values__list-item ticked-list text_style_bold-paragraph">Ответственность на всех уровнях.</li>
-          </ul>
-        </div>
-      </div>
-
     </section>
 
 
@@ -171,6 +170,9 @@
               <li class="provide__list-item text_style_regular-paragraph-white-bold">В любом количестве </li>
               <li class="provide__list-item text_style_regular-paragraph-white-bold">Индивидульные приборы в кабину</li>
               <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Индивидуальный подход </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">В любом количестве </li>
+              <li class="provide__list-item text_style_regular-paragraph-white-bold">Индивидульные приборы в кабину</li>
               <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
               <li class="provide__list-item text_style_regular-paragraph-white-bold">Гарантия 3 года</li>
             </ul>
@@ -250,7 +252,6 @@
     </section>
       -->
     <!-- Expert team section -->
-
 
     <!-- services section -->
 
@@ -332,68 +333,6 @@
 
       </div>
     </section>
-
-
-    <section class="experts section-box">
-      <div class="section-intro">
-        <h2 class="section-intro__title text_style_title">Встречайте команду экспертов</h2>
-        <p class="section-intro__subtitle text_style_bold-paragraph">
-          Работая со многими марками, нашим техническим специалистам можно доверять правильное
-          диагностировать различные виды ремонта
-        </p>
-        <div class="section-intro__dash"></div>
-      </div>
-
-      <!-- Experts swiper -->
-      <div class="swiper swiper-experts">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img class="experts__slider-image" src="./images/Employee7.jpeg" alt="Сотрудник 7">
-            <div class="experts__label">
-              <p class="experts__name">Джулс</p>
-              <p class="experts__position">Главный по английскому</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <img class="experts__slider-image" src="./images/Employee3.jpeg" alt="Сотрудник 3">
-            <div class="experts__label">
-              <p class="experts__name">Терминатор</p>
-              <p class="experts__position">Главный по железу</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <img class="experts__slider-image" src="./images/employee5.jpeg" alt="Сотрудник 5">
-            <div class="experts__label">
-              <p class="experts__name">Менеджер</p>
-              <p class="experts__position">Главный по делегированию</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <img class="experts__slider-image" src="./images/employee4.jpeg" alt="Сотрудник 4">
-            <div class="experts__label">
-              <p class="experts__name">Брюс</p>
-              <p class="experts__position">Главный по крепким орехам</p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <img class="experts__slider-image" src="./images/Employee1.jpeg" alt="Сотрудник 1">
-            <div class="experts__label">
-              <p class="experts__name">Нео</p>
-              <p class="experts__position">Главный по продажам</p>
-            </div>
-          </div>
-        </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev swiper-button-prev_services"></div>
-        <div class="swiper-button-next swiper-button-next_services"></div>
-      </div>
-
-    </section>
-
     <section class="numbers">
       <div class="section-box numbers__wrapper">
         <div class="numbers__item">
@@ -553,15 +492,21 @@
     </section>
 
     <!-- Find us section -->
-    <section class="find-us section-box">
-      <div style="position:relative;overflow:hidden;"><a
-          href="https://yandex.uz/maps/org/volgogradskiy_zavod_gusenichnykh_mashin/207259154331/?utm_medium=mapframe&utm_source=maps"
-          style="color:#eee;font-size:12px;position:absolute;top:0px;">Волгоградский завод гусеничных машин</a><a
-          href="https://yandex.uz/maps/38/volgograd/category/special_equipment_special_vehicles/184106622/?utm_medium=mapframe&utm_source=maps"
-          style="color:#eee;font-size:12px;position:absolute;top:14px;">Спецтехника и спецавтомобили в Волгограде</a><a
-          href="https://yandex.uz/maps/38/volgograd/category/industrial_enterprise/184106880/?utm_medium=mapframe&utm_source=maps"
-          style="color:#eee;font-size:12px;position:absolute;top:28px;">Производственное предприятие в
-          Волгограде</a><iframe
+    <section class="find-us">
+      <div style="position:relative;overflow:hidden;">
+        <a href="https://yandex.uz/maps/org/volgogradskiy_zavod_gusenichnykh_mashin/207259154331/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:0px;" target="_blank">Волгоградский завод гусеничных
+          машин
+        </a>
+        <a href="https://yandex.uz/maps/38/volgograd/category/special_equipment_special_vehicles/184106622/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:14px;" target="_blank">Спецтехника и спецавтомобили в
+          Волгограде
+        </a>
+        <a href="https://yandex.uz/maps/38/volgograd/category/industrial_enterprise/184106880/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:28px;" target="_blank">Производственное предприятие в
+          Волгограде
+        </a>
+        <iframe
           src="https://yandex.uz/map-widget/v1/?display-text=%D0%B2%D0%B7%D0%B3%D0%BC&from=tabbar&ll=44.604047%2C48.822849&mode=search&oid=207259154331&ol=biz&sll=37.683868%2C55.613095&source=serp_navig&sspn=0.119133%2C0.039835&text=%D0%B2%D0%B7%D0%B3%D0%BC&utm_source=share&z=13"
           width="100%" height="450" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
       </div>
@@ -662,6 +607,7 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script src="./script-js/swiper-services.js"></script>
   <script src="./script-js/swiper-news.js"></script>
+  <script src="./script-js/swiper-main.js"></script>
   <script src="./script-js/swiper-experts.js"></script>
   <script src="./script-js/burger-menu.js"></script>
 </body>

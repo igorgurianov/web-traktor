@@ -23,9 +23,30 @@ const sparePartsList = [
 ]
 
 
+const templateProductImg = document.querySelector('#product-img')
+const templateProductName = document.querySelector('#product-name')
+const templateProductDescrLine1 = document.querySelector('#product-description-line-1')
+
+
+console.log(templateProductImg)
+console.log(templateProductDescrLine1)
+
+
+
+console.log('a')
+
+const baseUrl = 'http://127.0.0.1:5500/'
+const productPageParameter = 'diesel-engine.html'
+const newProductPage = new URL(productPageParameter, baseUrl)
+
+console.log(newProductPage.href)
+
+
 const cardsContainer = document.querySelector('.cards-grid');
 const cardsTemplate = document.querySelector('#card-template').content;
 
+
+// Добавляем сами карточки товаров на страницу выбора
 
 function createCard({ name, price, img, description, productLink }) {
 
@@ -48,7 +69,6 @@ function renderCard(cardElement) {
 function clickHandler(evt) {
   console.log(evt.target)
 }
-
 
 sparePartsList.forEach((card) => {
   renderCard(createCard(card))

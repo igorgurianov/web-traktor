@@ -1,11 +1,9 @@
 .preloader__image {
   position: relative;
-  top: 25%;
-  left: 25%;
-  width: 50vw;
-  height: 50vh;
 
-  text-align: center;
+  width: 10vw;
+  height: 10vh;
+  /* align-items: center; */
   z-index: 11;
   filter: invert(1);
   animation: preloader-rotate 2s infinite linear;

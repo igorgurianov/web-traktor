@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web-tractor</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon-tractor-svgrepo-com.svg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./pages/index.css" />
+
+</head>
+
+<body class="page">
+
+  <!--Preloader-->
+  <div class="preloader">
+    <img class="preloader__image" src="./images/preload-gear-svgrepo-com.svg">
+  </div>
+
+  <!--Header-->
+
+  <header class="header">
+    <button type="button" class="header__hamburger"></button>
+    <div class="header__menu">
+      <button type="button" class="header__btn-close-hamburger"></button>
+      <nav class="nav-bar" id="myHeader">
+        <div class="nav-bar__container">
+          <ul class="nav-bar__list">
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./home.html">Главная
+              </a>
+            </li>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./machines.html">Наша техника
+              </a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./VZGM-90.html">Трактор&nbsp;ВЗГМ-90</a>
+                <a class="dropdown__link" href="./DT-75.html">Трактор&nbsp;ДТ-75</a>
+              </div>
+            </li>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./services.html">Сервис</a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./Preventive-Maintenance.html">Техническое&nbsp;обслуживание</a>
+                <a class="dropdown__link" href="./general-maintenance.html">Капитальный&nbsp;ремонт</a>
+                <a class="dropdown__link" href="./current-maintenance.html">Профилактическое&nbsp;обслуживание</a>
+              </div>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти
+              </a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="./about.html">О нас</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./gallery.html">Галерея работ</a>
+            </li>
+            <li class="nav-bar__item">
+              <a class="nav-bar__link text_style_navbar" href="./news.html">Новости</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__topline">
+        <div class="header__info">
+          <p class="header__hours header__icon text_style_bold-paragraph">Понедельник - Пятница 8:00 -
+            19:00</p>
+          <a class="header__tel header__icon text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7
+            (495) 577 2710</a>
+          <a class="header__address header__icon text_style_bold-paragraph link_style_regular"
+            href="https://yandex.ru/maps/-/CCUKzMcXWC" target="_blank">Волгоград, ул Переяславская д.20Б</a>
+        </div>
+        <div class="social-media">
+          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537" target="_blank"></a>
+          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation section -->
+
+  <main class="content">
+
+    <article class="page-title">
+      <h2 class="page-title__header text_style_title-white">О нас</h2>
+      <div class="page-title__path-container">
+        <a class="page-title__link" href="./home.html">Главная</a>
+        <span class="page-title__separator"> &nbsp;&nbsp;/&nbsp;&nbsp; </span>
+        <p class="page-title__directory">О нас</p>
+      </div>
+    </article>
+
+
+    <!-- Interview section -->
+    <section class="interview section-box">
+      <div class="interview__wrapper">
+        <img class="interview__photo" src="./images/founder-img.png" alt="Фото основателей компании">
+        <div class="interview__history">
+          <h2 class="interview__title text_style_title">Как все начиналось</h2>
+          <h2 class="interview__title text_style_title">История от основателей</h2>
+          <div class="section-intro__dash"></div>
+          <p class="interview__paragraph text_style_regular-paragraph">Мой отец занимался выращиванием бахчевых культур,
+            я стал ему помогать,
+            у нас были свои ДТ-75, К 700, сеялки, культиваторы, опрыскиватели и тд.</p>
+          <p class="interview__paragraph text_style_regular-paragraph">
+            Эксплуатация техники неизбежно приводила к ее поломкам, необходимости быстрого ремонта и технического
+            обслуживания.
+            С техникой я знаком уже более 25 лет и, до настоящего момента, участвую в ремонте и могу устранить любую
+            неисправность.
+            Свои профессиональные навыки, знания и опыт я смог реализовать, основав собственный бизнес.</p>
+          <div class="interview__owner">
+            <img class="interview__owner-photo" src="./images/employee4.jpeg" alt="">
+            <img class="interview__owner-sign" src="./images/signature.svg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="values">
+        <div class="values__item">
+          <h3 class="values__title text_style_subtitle">Наша миссия</h3>
+          <p class="values__paragraph text_style_bold-paragraph">
+            Наша миссия состоит в том, чтобы обслуживать наших клиентов и всегда обеспечивать высочайший уровень
+            обслуживания клиентов; развивать нашу команду и стремиться к постоянному совершенствованию.
+          </p>
+        </div>
+        <div class="values__item">
+          <h3 class="values__title text_style_subtitle">Наше видение</h3>
+          <p class="values__paragraph text_style_bold-paragraph">
+            Стать выдающимся лидером в области производства и ремонта техники. Мы создаём
+            воодушевление, реализуя новаторские идеи, решая проблемы и превосходя ожидания наших клиентов.
+          </p>
+        </div>
+        <div class="values__item">
+          <h3 class="values__title text_style_subtitle">Главные ценности</h3>
+          <ul class="values__list">
+            <li class="values__list-item ticked-list text_style_bold-paragraph">Командная работа через доверие и
+              уважение.</li>
+            <li class="values__list-item ticked-list text_style_bold-paragraph">Приверженность энтузиазму клиентов.</li>
+            <li class="values__list-item ticked-list text_style_bold-paragraph">Ответственность на всех уровнях.</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- Tractors we make -->
+    <!-- Review section
+    <section class="review section-box">
+      <div class="section-intro">
+        <h2 class="section-intro__title text_style_title">Причины обращаться к нам</h2>
+        <p class="section-intro__subtitle text_style_bold-paragraph">
+          Высокое качество и скорость выполнения работ. Множество положительных отзывов</p>
+        <div class="section-intro__dash"></div>
+      </div>
+      <div class="review__widget" style="max-width: 760px;height:700px;overflow:hidden;position:relative;"><iframe
+          style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box"
+          src="https://yandex.ru/maps-reviews-widget/226327670406?comments"></iframe><a
+          href="https://yandex.uz/maps/org/muzei_zapovednik_izmailovo/226327670406/" target="_blank"
+          style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Музей-заповедник
+          Измайлово на карте Москвы — Яндекс Карты</a></div>
+    </section>
+      -->
+    <!-- Expert team section -->
+
+
+    <section class="experts section-box">
+      <div class="section-intro">
+        <h2 class="section-intro__title text_style_title">Встречайте команду экспертов</h2>
+        <p class="section-intro__subtitle text_style_bold-paragraph">
+          Работая со многими марками, нашим техническим специалистам можно доверять правильное
+          диагностировать различные виды ремонта
+        </p>
+        <div class="section-intro__dash"></div>
+      </div>
+
+      <!-- Experts swiper -->
+      <div class="swiper swiper-experts">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="experts__slider-image" src="./images/Employee7.jpeg" alt="Сотрудник 7">
+            <div class="experts__label">
+              <p class="experts__name">Джулс</p>
+              <p class="experts__position">Главный по английскому</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="experts__slider-image" src="./images/Employee3.jpeg" alt="Сотрудник 3">
+            <div class="experts__label">
+              <p class="experts__name">Терминатор</p>
+              <p class="experts__position">Главный по железу</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="experts__slider-image" src="./images/employee5.jpeg" alt="Сотрудник 5">
+            <div class="experts__label">
+              <p class="experts__name">Менеджер</p>
+              <p class="experts__position">Главный по делегированию</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="experts__slider-image" src="./images/employee4.jpeg" alt="Сотрудник 4">
+            <div class="experts__label">
+              <p class="experts__name">Брюс</p>
+              <p class="experts__position">Главный по крепким орехам</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="experts__slider-image" src="./images/Employee1.jpeg" alt="Сотрудник 1">
+            <div class="experts__label">
+              <p class="experts__name">Нео</p>
+              <p class="experts__position">Главный по продажам</p>
+            </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper-button-prev_services"></div>
+        <div class="swiper-button-next swiper-button-next_services"></div>
+      </div>
+
+    </section>
+    <!-- Find us section -->
+    <section class="find-us section-box">
+      <div style="position:relative;overflow:hidden;"><a
+          href="https://yandex.uz/maps/org/volgogradskiy_zavod_gusenichnykh_mashin/207259154331/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:0px;">Волгоградский завод гусеничных машин</a><a
+          href="https://yandex.uz/maps/38/volgograd/category/special_equipment_special_vehicles/184106622/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:14px;">Спецтехника и спецавтомобили в Волгограде</a><a
+          href="https://yandex.uz/maps/38/volgograd/category/industrial_enterprise/184106880/?utm_medium=mapframe&utm_source=maps"
+          style="color:#eee;font-size:12px;position:absolute;top:28px;">Производственное предприятие в
+          Волгограде</a><iframe
+          src="https://yandex.uz/map-widget/v1/?display-text=%D0%B2%D0%B7%D0%B3%D0%BC&from=tabbar&ll=44.604047%2C48.822849&mode=search&oid=207259154331&ol=biz&sll=37.683868%2C55.613095&source=serp_navig&sspn=0.119133%2C0.039835&text=%D0%B2%D0%B7%D0%B3%D0%BC&utm_source=share&z=13"
+          width="100%" height="450" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer section starts-->
+  <footer class="footer">
+    <div class="contacts">
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/map.svg" alt="">
+        <div class="contacts__container">
+          <p class="contacts__paragraph text_style_bold-paragraph">Бронницы Бояркино</p>
+          <p class="contacts__paragraph text_style_bold-paragraph">17 километр</p>
+          <p class="contacts__paragraph text_style_bold-paragraph">строение 15</p>
+        </div>
+      </div>
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/phone-call.svg" alt="">
+        <div class="contacts__container">
+          <p class="contacts__paragraph text_style_bold-paragraph">Не стесняйтесь звонить</p>
+          <p class="contacts__paragraph text_style_bold-paragraph">нам сейчас</p>
+          <a class="contacts__paragraph text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
+        </div>
+      </div>
+      <div class="contacts__item">
+        <img class="contacts__icon" src="./images/evacuator.svg" alt="">
+        <div class="contacts__container">
+          <p class="contacts__paragraph text_style_bold-paragraph">Круглосуточная помощь</p>
+          <p class="contacts__paragraph text_style_bold-paragraph">на дороге</p>
+          <a class="contacts__paragraph text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__wrapper">
+      <div class="footer__about-us">
+        <h3 class="footer__subtitle text_style_subtitle-white">О нас</h3>
+        <div class="section-intro__dash section-intro__dash_footer"></div>
+        <p class="footer__paragraph text_style_regular-paragraph">Бронницы Бояркино</p>
+        <p class="footer__paragraph text_style_regular-paragraph">17 километр, д. 15</p>
+        <div class="footer__list-wrapper">
+          <p class="footer__paragraph text_style_regular-paragraph">Телефон: </p>
+          <a class="text_style_regular-paragraph footer__paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
+          <p class="footer__paragraph text_style_regular-paragraph">Email: </p>
+          <p class="footer__paragraph text_style_regular-paragraph link_style_regular">web-tractor@mail.com</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Помощь: </p>
+          <a class="text_style_regular-paragraph footer__paragraph link_style_regular" href="tel:+74955772710">+7 (495)
+            577
+            27 10</a>
+        </div>
+      </div>
+      <div class="footer__our-services">
+        <h3 class="footer__subtitle text_style_subtitle-white">Наши услуги</h3>
+        <div class="section-intro__dash section-intro__dash_footer"></div>
+        <ul class="footer__list-container">
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Диагностика двигателя</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Масло и фильтры</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Ремни и шланги</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Ремонт тормозов</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Услуги шин и колес</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Кондиционирование воздуха</li>
+          <li class="footer__paragraph_ticked ticked-list text_style_regular-paragraph">Другие виды сервиса</li>
+        </ul>
+      </div>
+      <div class="footer__hours">
+        <h3 class="footer__subtitle text_style_subtitle-white">Часы работы</h3>
+        <div class="section-intro__dash section-intro__dash_footer"></div>
+        <div class="footer__list-wrapper text_style_regular-paragraph">
+          <p class="footer__paragraph text_style_regular-paragraph">Понедельник:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Вторник:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Среда:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Четверг:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Пятница:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">7:30 - 17:30</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Суббота:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">10:00 - 17:00</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Воскресенье:</p>
+          <p class="footer__paragraph text_style_regular-paragraph">Выходной</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script-js/preloader.js"> </script>
+  <script src="./script-js/sticky-menu.js"></script>
+  <script src="./script-js/script.js"></script>
+  <script src="./script-js/provided-service-selector.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./script-js/swiper-services.js"></script>
+  <script src="./script-js/swiper-news.js"></script>
+  <script src="./script-js/swiper-experts.js"></script>
+  <script src="./script-js/burger-menu.js"></script>
+</body>
+
+</html>

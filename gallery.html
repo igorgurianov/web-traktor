@@ -21,56 +21,74 @@
   <!--Header-->
 
   <header class="header">
-
     <button type="button" class="header__hamburger"></button>
-
     <div class="header__menu">
       <button type="button" class="header__btn-close-hamburger"></button>
       <nav class="nav-bar" id="myHeader">
         <div class="nav-bar__container">
           <ul class="nav-bar__list">
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar " href="./machines.html">Наша техника</a>
+              <a class="nav-bar__link text_style_navbar" href="./home.html">Главная
+              </a>
             </li>
-            <li class="nav-bar__item ">
-              <a class="nav-bar__link text_style_navbar" href="./services.html">Сервис</a>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./machines.html">Наша техника
+              </a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./VZGM-90.html">Трактор&nbsp;ВЗГМ-90</a>
+                <a class="dropdown__link" href="./DT-75.html">Трактор&nbsp;ДТ-75</a>
+              </div>
+            </li>
+            <li class="nav-bar__item dropdown">
+              <a class="nav-bar__link text_style_navbar dropdown__btn" href="./services.html">Сервис</a>
+              <div class="dropdown__content">
+                <a class="dropdown__link" href="./Preventive-Maintenance.html">Техническое&nbsp;обслуживание</a>
+                <a class="dropdown__link" href="./general-maintenance.html">Капитальный&nbsp;ремонт</a>
+                <a class="dropdown__link" href="./current-maintenance.html">Профилактическое&nbsp;обслуживание</a>
+              </div>
             </li>
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar " href="./spare-parts.html">Запчасти</a>
+              <a class="nav-bar__link text_style_navbar" href="./spare-parts.html">Запчасти
+              </a>
             </li>
             <li class="nav-bar__item">
-              <a class="nav-bar__link text_style_navbar" href="./index.html">О нас</a>
+              <a class="nav-bar__link text_style_navbar" href="./about.html">О нас</a>
             </li>
             <li class="nav-bar__item">
               <a class="nav-bar__link text_style_navbar nav-bar__link_active" href="./gallery.html">Галерея работ</a>
+            </li>
             <li class="nav-bar__item">
               <a class="nav-bar__link text_style_navbar" href="./news.html">Новости</a>
-            </li>
             </li>
           </ul>
         </div>
       </nav>
       <div class="header__topline">
         <div class="header__info">
-          <p class="header__hours header__icon text_style_bold-paragraph ">Понедельник - Пятница 8:00 - 19:00</p>
+          <p class="header__hours header__icon text_style_bold-paragraph">Понедельник - Пятница 8:00 -
+            19:00</p>
           <a class="header__tel header__icon text_style_bold-paragraph link_style_regular" href="tel:+74955772710">+7
-            (495) 577 27 10</a>
+            (495) 577 2710</a>
           <a class="header__address header__icon text_style_bold-paragraph link_style_regular"
-            href="https://yandex.uz/maps/-/CCUrB8SfgC">Волгоград, ул Переяславская д.20Б</a>
+            href="https://yandex.ru/maps/-/CCUKzMcXWC" target="_blank">Волгоград, ул Переяславская д.20Б</a>
         </div>
         <div class="social-media">
-          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537"></a>
-          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor"></a>
+          <a class="social-media__whatsap link_style_regular" href="https://wa.me/+79163909537" target="_blank"></a>
+          <a class="social-media__telegram link_style_regular" href="https://t.me/webtractor" target="_blank"></a>
         </div>
       </div>
     </div>
-
   </header>
 
   <main class="content">
 
     <article class="page-title">
       <h2 class="page-title__header text_style_title-white">Галерея работ</h2>
+      <div class="page-title__path-container">
+        <a class="page-title__link" href="./home.html">Главная</a>
+        <span class="page-title__separator"> &nbsp;&nbsp;/&nbsp;&nbsp; </span>
+        <p class="page-title__directory">Галерея работ</p>
+      </div>
     </article>
 
     <section class="gallery section-box">

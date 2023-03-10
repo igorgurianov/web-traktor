@@ -60,6 +60,14 @@
 @import url('../blocks/header/__icon/header__icon.css');
 
 
+
+/* DROPDOWN */
+@import url('../blocks/dropdown/dropdown.css');
+@import url('../blocks/dropdown/__content/dropdown__content.css');
+@import url('../blocks/dropdown/__link/dropdown__link.css');
+@import url('../blocks/dropdown/__btn/dropdown__btn.css');
+
+
 /* Navigation bar */
 @import url('../blocks/nav-bar/nav-bar.css');
 @import url('../blocks/nav-bar/__container/nav-bar__container.css');
@@ -70,6 +78,16 @@
 
 /* top-banner*/
 @import url('../blocks/top-banner/top-banner.css');
+
+/* MAIN CAROUSEL */
+@import url('../blocks/main-carousel/main-carousel.css');
+@import url('../blocks/main-carousel/__img/main-carousel__img.css');
+@import url('../blocks/main-carousel/__slide/main-carousel__slide.css');
+@import url('../blocks/main-carousel/__link/main-carousel__link.css');
+@import url('../blocks/main-carousel/__subtitle/main-carousel__subtitle.css');
+@import url('../blocks/main-carousel/__title/main-carousel__title.css');
+@import url('../blocks/main-carousel/__content/main-carousel__content.css');
+@import url('../vendor/swiper/_main/swiper-main__navigation.css');
 
 /* page-title */
 @import url('../blocks/page-title/page-title.css');

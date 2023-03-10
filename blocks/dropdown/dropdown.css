@@ -1,0 +1,14 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:hover .dropdown__btn {
+  border-bottom-color: #ffc513;
+  transition: all 0.3s ease 0s;
+  opacity: .6;
+}
